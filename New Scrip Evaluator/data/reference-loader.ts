@@ -8,11 +8,13 @@ export async function loadShowScoreReferences(show:string,codes:string[]){
   const root=process.cwd();
   const entries=await fs.readdir(root,{withFileTypes:true}).catch(()=>[]);
   const folders=entries.filter(e=>e.isDirectory()&&e.name.toLowerCase().includes('score')).map(e=>path.join(root,e.name));
+  if(!codes.length) folders.push(path.join(root,'Winning Promo Scripts'));
+  const matchCodes=codes.length?codes:[''];
   const files:string[]=[];
   for(const folder of folders){
     const names=await fs.readdir(folder).catch(()=>[]);
     for(const name of names){
-      if(name.endsWith('.docx')&&codes.some(code=>name.toLowerCase().startsWith(code.toLowerCase()))) files.push(path.join(folder,name));
+      if(name.endsWith('.docx')&&matchCodes.some(code=>name.toLowerCase().startsWith(code.toLowerCase()))) files.push(path.join(folder,name));
     }
   }
   const unique=[...new Set(files)].slice(0,30);
