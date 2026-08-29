@@ -1,0 +1,8 @@
+{
+  "King of Dragon": {"P0 Topper": ["KOD-Hasim-LP4-V2", "KODGN-Rituraj-LP1-Hasim-V1", "KODGN-Hasim-LP1-30 Mins-V1"], "P0 Above Avg": ["KOD-Shailendra-LP10-Hasim-V1"], "P1 Avg": ["KODGN-Mirant-LP1"], "P2 Rejected": ["KOD-Prakash-LP1", "KOD-Hasim-LP1", "KOD-Anushree-LP1"]},
+  "The Warrior": {"P0 Topper": ["TWAR-Akshay-LP1-30 Mins-V2", "TWAR-Hasim-LP1", "TWAR-Pranjali-LP7", "TWAR-Pranjali-LP7-Hasim-V1", "TWAR-Pranjali-LP8-Hasim-V1"], "P0 Above Avg": ["TWAR-Hasim-LP2"], "P1 Avg": ["TWAR-Pranjali-LP8"], "P2 Rejected": ["War- Anushree-LP1", "TWAR-Chaitanya-LP1", "TWAR-Prakash-LP8"]},
+  "My Mysterious Princess": {"P0 Topper": ["MMP-Shailendra-LP1-V1", "MMP-Shailendra-LP2"], "P0 Above Avg": ["MMP-Shailendra-LP1"], "P1 Avg": ["MMP-Pranjali-LP8"], "P2 Rejected": ["MMP-Pranjali-LP3", "MMP-Mona-LP2-Anupma-V1", "MMP-Prakash-LP2"]},
+  "Billionaire Hidden Wife": {"P0 Topper": ["BRHW-Akshay-LP4", "BRHW-Akshay-LP1"], "P0 Above Avg": ["BRHW-Mirant-LP1-Akshay-V1"], "P2 Rejected": ["BRHW-Mirant-LP2"]},
+  "The Beast Guru": {"P0 Topper": ["TBG-Akshay-LP3", "TBG-Akshay-LP3-V2"], "P0 Above Avg": ["TBG-Shailendra-LP4"], "P2 Rejected": ["TBG-Pranjali-LP1", "TBG-Shailendra-LP1"]},
+  "Primordial God": {"P0 Topper": ["PG-Hasim-LP1-V1", "PG-Shailendra-LP3"], "P0 Above Avg": ["PG-Pranjali-LP3"], "P2 Rejected": ["PG-Chaitanya-LP4", "PG-Ganesh-LP1"]}
+}
