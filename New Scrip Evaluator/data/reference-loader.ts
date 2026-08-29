@@ -35,7 +35,7 @@ export async function knownReferenceScore(show:string,codes:string[],script:stri
   const entries=await fs.readdir(process.cwd(),{withFileTypes:true}).catch(()=>[]);
   for(const folder of entries.filter(e=>e.isDirectory()&&e.name.toLowerCase().includes('score'))){
     for(const name of await fs.readdir(path.join(process.cwd(),folder.name)).catch(()=>[])){
-      const base=name.replace(/\.docx$/i,'');const expected=scoreBands[show]?.[base];
+      const base=name.replace(/\.docx$/i,'').replace(/\s*\(\d+\)$/,'').trim();const expected=scoreBands[show]?.[base];
       if(expected===undefined||!codes.some(code=>name.toLowerCase().startsWith(code.toLowerCase()))) continue;
       const actual=(await mammoth.extractRawText({buffer:await fs.readFile(path.join(process.cwd(),folder.name,name))})).value.replace(/\s+/g,' ').trim();
       if(actual===wanted)return {score:expected,file:name};
