@@ -113,6 +113,34 @@
       ],
       "calibration": "Use TWAR-Hasim-LP2 as the P0 Above Avg anchor. Reward an original, visual hook plus source-grounded relationship and reincarnation stakes; deduct when multiple mysteries are introduced without payoff, the middle becomes a character/faction list, or the CTA is generic."
     },
+    "avg_reference": {
+      "promo": "TWAR-Pranjali-LP8",
+      "score_band": "7.5+ / P1 Avg",
+      "observed_strengths": [
+        "The opening immediately establishes the legendary warrior's death, the Sky Poison Pearl and his unexplained arrival in Tian City.",
+        "The pearl is a clear external objective and the green-energy rebirth gives the reincarnation a strong visual identity.",
+        "Atharv's weak body, Harin's emotional support, Arya's arranged marriage and Samar's poison plot create several understandable stakes.",
+        "The promo has strong sound-design opportunities and a readable chain from battlefield sacrifice to second life and social rejection."
+      ],
+      "why_avg_not_topper": [
+        "The promo explains the battlefield and reincarnation mechanics at length before the Arya relationship becomes the emotional center.",
+        "The repeated death, awakening, mirror discovery, medical explanation and public mockery beats create recap density and reduce forward movement.",
+        "Many reveals are narrated rather than dramatized through a decision and consequence, especially the weak-body backstory and clan reaction.",
+        "The hook is a strong mystery but less personally confrontational than the Topper marriage/rejection hooks, and the ending needs a sharper multi-question cliffhanger tied to Arya, Samar and the pearl."
+      ],
+      "observed_patterns": {
+        "Hook": "A clean identity-and-location mystery—Atharv wakes after death and asks whether he is in the afterlife—creates curiosity, but it is less emotionally intimate than a direct Arya-Atharv conflict.",
+        "Context & World Clarity": "The pearl, Azure Cloud, Tian City, two Atharv identities and Arya's status are clear, but the large amount of setup makes the listener work harder to hold the hierarchy and timeline.",
+        "Sequence & Plot Movement": "Battlefield last stand -> pearl sacrifice -> rebirth in weak body -> medical/childhood history -> arranged marriage -> Samar's poison attack. The overall chain is logical, but several middle beats repeat the same weakness information.",
+        "Scene Design": "The strongest scenes are the spear death, pearl ingestion/jump, mirror reveal and poisoning. The later social exposition needs more direct confrontation and visible consequences to match Topper scene density.",
+        "Pacing & Transitions": "The opening action is fast, then multiple flashbacks and explanations slow the middle. Green-energy/SFX bridges help, but the promo should compress repeated context and accelerate toward the wedding and assassination payoff.",
+        "Ending, Callback & CTA": "The core unresolved questions are why Atharv survived, how the pearl changed him, whether Arya's marriage will stand and whether Samar's poison will work. The CTA must ask these specifically; a broad 'what happens next' ending keeps it in Avg territory.",
+        "Narration/Dialogue Balance": "Narration carries most of the mythology and crowd context; dialogue is effective in the vow, Sarparaj threat and Samar's murder decision but is not consistently used to turn scenes.",
+        "Mental Impact & Recall Value": "The green-marked palm, the pearl, a legendary warrior in a weak body and a poisoned wedding-day groom are memorable, but the many explanatory beats compete with the strongest images.",
+        "Follow successful promos pattern": "It follows the Warrior pattern at premise level—pearl, death, reincarnation and weak Atharv—but has less concentrated relationship conflict and less compressed escalation than the Topper references."
+      },
+      "calibration": "Use TWAR-Pranjali-LP8 as the P1 Avg anchor. Reward source fidelity, logical reincarnation progression and visual pearl imagery, but deduct for repeated exposition, long setup before personal conflict, passive summary and a non-specific CTA. Length alone is not a penalty; repetition and missing consequences are."
+    },
     "calibration": "Use these five as P0 Topper anchors for The Warrior. Reward causal identity contrast, pearl-driven stakes, dramatized war/reincarnation, Arya-Atharv emotional conflict, clean flashback transitions and a 3–4 question cliffhanger. Do not deduct merely because a promo is long; deduct only for repetition, unsupported exposition or scenes that do not create a new consequence."
   }
 }
