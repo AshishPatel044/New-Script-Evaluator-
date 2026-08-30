@@ -220,6 +220,34 @@
       ],
       "calibration": "Use MMP-Shailendra-LP1 as the P0 Above Avg anchor at 8.5+. Reward clear DNA-origin mystery, emotionally specific family betrayal, calm self-respect and concrete necklace/car status reversals. Deduct when the promo lacks a medical or Devansh-scale crisis, repeats family exposition or ends without a sharp identity/competence cliffhanger."
     },
+    "avg_reference": {
+      "promo": "MMP-Pranjali-LP8",
+      "score_band": "7.5+ / P1 Avg",
+      "observed_strengths": [
+        "Opens directly inside an impossible heart-surgery crisis and gives Anamika a clear competence challenge.",
+        "Devansh's anger, Devendra's life-threatening condition and the doctors' fear create immediate external stakes.",
+        "The successful surgery and blank-cheque beat provide visible proof of Anamika's skill and a status reversal.",
+        "The DNA reveal and Anamika's continued effort to save Madan connect medical talent with emotional family conflict."
+      ],
+      "why_avg_not_topper": [
+        "The operation is declared successful quickly, so the central medical challenge has limited on-screen struggle or decision-making.",
+        "The promo uses several explanatory jumps—surgery, blank cheque, DNA report, kidney donor and biological family—so the emotional spine becomes diffuse.",
+        "Anamika's exceptional ability is often told by other doctors rather than shown through a distinctive medical insight or difficult choice.",
+        "The identity and family questions are strong, but the CTA needs more specific unresolved questions about Devansh, the hidden heiress and the next consequence."
+      ],
+      "observed_patterns": {
+        "Hook": "The question 'are you human?' followed by an impossible surgery is clear and high-stakes, but it relies on praise and announcement more than a suspenseful complication.",
+        "Context & World Clarity": "The hospital, Devansh family, Anamika's age/status and DNA situation are understandable, but multiple time jumps and donor details create some information overload.",
+        "Sequence & Plot Movement": "Surgery crisis -> success -> blank-cheque status reversal -> DNA/family flashback -> Anamika saves Madan. The line is coherent, though the operation's resolution arrives before enough escalating obstacles.",
+        "Scene Design": "The operating-room confrontation and blank cheque are useful set pieces. The surgery itself needs more specific action and consequence to match the Topper's strongest proof-based reversals.",
+        "Pacing & Transitions": "The hospital opening is brisk, then the flashback shifts into compressed family summary. The transition is understandable but the middle becomes recap-heavy.",
+        "Ending, Callback & CTA": "The strongest open questions are Anamika's identity, Devansh's reaction and the meaning of her medical genius. A 7.5-level promo needs to turn these into 3–4 specific questions and avoid ending on a generic identity tease.",
+        "Narration/Dialogue Balance": "Dialogue provides confrontation and status, while narration explains most of the medical and family history. Stronger scores require more character-led decisions and less third-party praise.",
+        "Mental Impact & Recall Value": "The young doctor saving a powerful man's grandfather and refusing the implied value of a blank cheque are memorable, but the many family facts compete with the surgery image.",
+        "Follow successful promos pattern": "It follows MMP's competence-plus-status-reversal pattern, but it is less layered and less emotionally sharp than the Topper references because the crisis resolves early and the family backstory is summarized."
+      },
+      "calibration": "Use MMP-Pranjali-LP8 as the P1 Avg anchor at 7.5+. Reward an immediate medical crisis, visible status reversal and source-grounded DNA conflict; deduct for easy/announced success, multi-threaded exposition, indirect competence proof and generic identity CTA."
+    },
     "calibration": "Use these two as P0 Topper anchors for My Mysterious Princess. Reward a specific crisis, calm competence, visible status reversal, source-grounded identity mystery and sharp CTA. Do not reward generic rich-family insults alone; the promo must prove Anamika's exceptional ability through action."
   }
 }
