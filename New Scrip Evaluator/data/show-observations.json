@@ -169,5 +169,29 @@
       "calibration": "Use these three as The Warrior P2 anchors. Keep a new promo below 6 when it has identity confusion, generic or distracting hook, recap-heavy mythology, weak causal escalation, diluted pearl/rebirth payoff or a vague CTA—even if it mentions Atharv, Arya and the Sky Poison Pearl."
     },
     "calibration": "Use these five as P0 Topper anchors for The Warrior. Reward causal identity contrast, pearl-driven stakes, dramatized war/reincarnation, Arya-Atharv emotional conflict, clean flashback transitions and a 3–4 question cliffhanger. Do not deduct merely because a promo is long; deduct only for repetition, unsupported exposition or scenes that do not create a new consequence."
+  },
+  "My Mysterious Princess": {
+    "tier": "P0 Topper",
+    "references": ["MMP-Shailendra-LP1-V1", "MMP-Shailendra-LP2"],
+    "source_grounded_patterns": {
+      "Hook": "Begin at a high-status public or medical crisis: Anamika is accused and humiliated by the Mehta family, or an eighteen-year-old college girl challenges an impossible heart surgery. The first beat must create a sharp competence-versus-status contradiction.",
+      "Context & World Clarity": "Quickly establish Anamika's two opposing realities: abandoned/insulted foster daughter and hidden medical genius, fighter, business queen and lost Oberoi heiress. Devansh, Devendra's critical heart condition, Jivika's jealousy and the family identity reveal make the stakes concrete.",
+      "Sequence & Plot Movement": "Use a reveal ladder: family/DNA rejection or life-threatening surgery -> Anamika chooses dignity or accepts the impossible medical challenge -> she spots the hidden truth/solves the crisis -> powerful observers are forced to reassess her -> Oberoi/Devansh mystery and revenge or recognition remain unresolved.",
+      "Scene Design": "Topper scenes are status reversals with visible actions: Jivika plants the necklace, Anamika rejects it into the bin; the damaged car arrives, Anamika identifies its value; arrogant doctors doubt her, then the operating-room crisis puts her skill on trial. Each insult triggers a composed, surprising response.",
+      "Pacing & Transitions": "Start with an immediate crisis, then use flashback to explain the same-day family betrayal before returning to the surgery or public payoff. The transitions are driven by a question or object (DNA report, necklace, damaged car, heart operation), not unrelated family recap.",
+      "Ending, Callback & CTA": "End before Anamika's full identity/medical victory is completely resolved. Ask specific questions about the surgery, Devansh's reaction, Anamika's hidden identity, the Oberoi reunion and Jivika/Natasha's next conspiracy, followed by Pocket FM CTA.",
+      "Narration/Dialogue Balance": "Narration compresses the DNA/family history and frames Anamika's hidden capability; dialogue is short, status-loaded and character-specific—insult, challenge, accusation, refusal or confident promise. The winning rhythm gives Anamika calm, high-value replies rather than long speeches.",
+      "Mental Impact & Recall Value": "The core recall image is a calm eighteen-year-old woman being treated as trash while secretly possessing elite knowledge and power. The rejected necklace, damaged luxury car and impossible heart surgery create memorable proof points of her hidden princess identity.",
+      "Follow successful promos pattern": "The Topper pattern is not merely rich-family melodrama: it is humiliation followed by a concrete competence reveal and a public status reversal, with multiple identities converging around Anamika. A generic family argument without proof of her exceptional ability should not score similarly.",
+      "pattern_signature": "Public humiliation or impossible medical crisis + Anamika's calm dignity + concrete proof of hidden genius/status + family/DNA betrayal + Devansh/Oberoi power world + visible status reversal + 3–4 specific identity/revenge/romance questions."
+    },
+    "why_topper": [
+      "Both promos open with a strong contradiction: the person everyone dismisses controls the highest-stakes moment.",
+      "Anamika's special abilities are dramatized through objects and actions, not just claimed in a character list.",
+      "The family betrayal supplies emotional vulnerability while the medical/business identity supplies aspirational power.",
+      "Scenes move through concrete reversals and preserve unanswered questions about Anamika's identity and Devansh's connection.",
+      "The CTA naturally extends the active surgery, family and hidden-heiress conflicts."
+    ],
+    "calibration": "Use these two as P0 Topper anchors for My Mysterious Princess. Reward a specific crisis, calm competence, visible status reversal, source-grounded identity mystery and sharp CTA. Do not reward generic rich-family insults alone; the promo must prove Anamika's exceptional ability through action."
   }
 }
