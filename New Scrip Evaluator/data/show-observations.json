@@ -477,6 +477,31 @@
       ],
       "calibration": "Use PG-Pranjali-LP3 as the P0 Above Avg anchor at 8.5+. Reward cosmic mystery tied to source mythology, clear marriage sacrifice, Himanshi-driven emotional choice, Suryansh's voice/lightning proof and a specific awakening threat. Deduct for abstract opening, terminology overload, delayed payoff or generic CTA."
     },
+    "rejected_references": {
+      "promos": ["PG-Chaitanya-LP4", "PG-Ganesh-LP1"],
+      "score_band": "below 6 / P2 Rejected",
+      "observed_patterns": {
+        "Hook": "Both start with the marriage/weakness premise, but the opening is repetitive and does not create the sharp mute-to-lightning contradiction quickly. The strongest divine-tree or cosmic danger arrives only after extended setup.",
+        "Context & World Clarity": "The spirit-root system, old vow and family hierarchy are present, but repeated slips, labels and explanations make the world feel mechanical. The Divine Tree/Infinite-grade power is not grounded as a clear immediate threat early enough.",
+        "Sequence & Plot Movement": "Marriage rejection -> written notes -> Himanshi's helplessness -> meditation/father's grave or letter -> liquid/seed awakening. The sequence contains source beats but repeatedly circles the same rejection and weakness instead of escalating through new consequences.",
+        "Scene Design": "The marriage court, notes and buried chest/liquid offer visual potential, but many moments are narrated as information. Suryansh's decisions and the cost of his hidden power are less active than in the Topper marriage/lightning reveal.",
+        "Pacing & Transitions": "Long family and backstory explanations delay the emotional payoff. Repeated note-writing and spirit-root failure create a slow, stop-start rhythm; transitions do not consistently use lightning, age deadline or threat as bridges.",
+        "Ending, Callback & CTA": "The scripts spend much of the available space reaching the awakening, leaving limited room for a sharp final attack or transformation. CTA needs 3–4 specific questions about the Divine Tree, lightning voice, Himanshi's safety and Rakshit's plan, plus Pocket FM.",
+        "Narration/Dialogue Balance": "Narration dominates the rules, past and failed meditation; dialogue repeats that Suryansh is mute/weak or that Himanshi cannot marry him. Lines need more revelation, choice and threat.",
+        "Mental Impact & Recall Value": "The secret seed/tree and father's letter are useful, but the dominant memory is prolonged helplessness and family logistics. The emotionally powerful voice-summons-lightning reveal is delayed or diluted.",
+        "Follow successful promos pattern": "They contain spirit root, forced marriage, Himanshi and hidden power, but miss the Topper pattern of immediate marriage injustice, clear protective choice, first spoken lightning proof and an urgent assassination/awakening cliffhanger."
+      },
+      "promo_specific_notes": {
+        "PG-Chaitanya-LP4": "The repeated paper exchanges make Suryansh passive and slow the opening. Meditation failures, the grave and mid-level liquid create a long discovery route; the Divine Tree power becomes an explanation rather than a concentrated emotional reveal.",
+        "PG-Ganesh-LP1": "The marriage setup is clearer and the first spoken line is a useful reveal, but the promo repeats family hierarchy and the old vow before the seed/Divine Tree payoff. Himanshi's sacrifice and Suryansh's lightning consequence are less tightly staged than in the Topper anchors."
+      },
+      "contrast_with_topper": [
+        "Topper promos make the marriage crisis trigger an immediate voice/lightning reveal; rejected promos delay the reveal behind notes, history and meditation.",
+        "Topper promos give Himanshi a clear emotional role in awakening Suryansh's power; rejected promos often keep her in a passive or logistical role.",
+        "Topper endings accelerate toward cosmic danger; rejected promos spend too much time establishing the premise and end without a concentrated threat payoff."
+      ],
+      "calibration": "Use these as Primordial God P2 anchors. Keep new promos below 6 when they repeat mute/weakness exposition, use passive note-writing or meditation recap, delay the Divine Tree/lightning proof, lack active Himanshi-driven choice or end with a vague CTA—even when the correct spirit terminology is present."
+    },
     "calibration": "Use these as P0 Topper anchors for Primordial God. Reward a clear mute-to-cosmic contradiction, source-specific spirit hierarchy, Himanshi-driven emotional choice, visible voice/lightning proof and a precise awakening/assassination CTA. Do not reward generic 'hidden power' language without the marriage trap and audible lightning consequence."
   }
 }
