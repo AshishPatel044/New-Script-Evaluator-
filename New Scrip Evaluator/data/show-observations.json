@@ -326,6 +326,28 @@
       ],
       "calibration": "Use BRHW-Mirant-LP1-Akshay-V1 as the P0 Above Avg anchor at 8.5+. Reward dramatic irony, Anika's active dignity, the hidden-wife contradiction and the source-specific ₹200-crore marriage/revenge setup. Deduct for repeated humiliation, delayed payoff, identity confusion or a generic CTA."
     },
+    "rejected_references": {
+      "promos": ["BRHW-Mirant-LP2"],
+      "score_band": "below 6 / P2 Rejected",
+      "observed_patterns": {
+        "Hook": "The opening starts after Kartik has already saved Ananya and leaves a thank-you note, then moves to Balraj's search and a months-later marriage. It lacks the immediate danger/identity collision of the Topper hooks and begins with aftermath rather than a compelling unresolved crisis.",
+        "Context & World Clarity": "The rejected-daughter, family bargain and hidden-wife context is present, but the timeline jumps from forest survival to months later to wedding night and then to hotel work. Anika/Ananya naming and the sequence of events need tighter anchoring.",
+        "Sequence & Plot Movement": "Kartik leaves a note -> Balraj searches -> family sells Ananya -> instant divorce -> Kartik reads the letter -> hotel humiliation. The events are source-relevant, but several are summarized and the central Kartik-Ananya danger is repeatedly deferred.",
+        "Scene Design": "The divorce cheque and Ananya's untouched ₹50 crore cheque/letter are strong props, but the emotional scene is mostly static crying and signing. The hotel accident and apology demand arrive late and do not yet create a large new consequence.",
+        "Pacing & Transitions": "The opening aftermath and months-later jump flatten urgency. The promo spends long stretches explaining the bargain and Kartik's realization before returning to a new public humiliation, creating stop-start momentum.",
+        "Ending, Callback & CTA": "The text segment ends around another workplace humiliation and does not establish a sharp final marriage/hidden-wife cliffhanger. The CTA must ask who will recognize Ananya, how Kartik will discover the truth, whether Balraj will attack and whether Anika can escape the family's cruelty.",
+        "Narration/Dialogue Balance": "Narration carries much of the family history and Kartik's realization; dialogue is strongest in the divorce confrontation but the long written letter reduces active scene exchange. More short threats, choices and consequences are needed.",
+        "Mental Impact & Recall Value": "The untouched cheque and letter are memorable, but the dominant emotional memory is abandonment and recap. The Topper-level KS danger, Anika's active dignity and hidden-wife irony are not concentrated in the ending.",
+        "Follow successful promos pattern": "It contains the right ingredients—₹200-crore bargain, divorce, rejected daughter and hidden wife—but misses the Topper pattern's immediate danger, public status reversal, active Anika agency and escalating Kartik obsession."
+      },
+      "why_rejected": [
+        "The strongest hidden-wife irony is explained after the divorce rather than dramatized through a present confrontation.",
+        "The timeline and identity transitions are diffuse, reducing curiosity and emotional continuity.",
+        "The ₹50 crore refusal is a good character beat, but it is not followed quickly enough by a powerful visible reversal or danger escalation.",
+        "The ending/CTA needs a concrete collision between Kartik, Ananya and the truth instead of another generic workplace problem."
+      ],
+      "calibration": "Use BRHW-Mirant-LP2 as the P2 below-6 anchor. Deduct for aftermath openings, timeline jumps, static exposition, delayed Kartik-Anika collision, weak escalation and vague CTA. Do not reward the presence of the money bargain or divorce alone; the promo must dramatize danger, agency and hidden-wife irony."
+    },
     "calibration": "Use these as P0 Topper anchors for Billionaire Hidden Wife. Reward a danger-led hook, source-specific family bargain, Anika's active dignity, Kartik's unexplained fixation and a concrete marriage/revenge cliffhanger. Do not award Topper for generic billionaire threats without the 200-crore betrayal and hidden-wife mystery."
   }
 }
