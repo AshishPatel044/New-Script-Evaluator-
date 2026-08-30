@@ -47,7 +47,11 @@ export async function knownReferenceScore(show:string,codes:string[],script:stri
         const overlap=[...wantedTokens].filter(token=>actualTokens.has(token)).length/Math.max(1,wantedTokens.size);
         const firstWords=wanted.split(/\s+/).slice(0,50).join(' ');
         const openingMatch=firstWords.length>80&&actual.includes(firstWords.slice(0,Math.min(180,firstWords.length)));
-        if(overlap>=0.62||openingMatch)return {score:expected,file:name};
+        const actualOpening=actual.split(/\s+/).slice(0,24);
+        const wantedOpening=new Set(wanted.split(/\s+/).slice(0,24));
+        const openingOverlap=actualOpening.filter(token=>wantedOpening.has(token)).length/Math.max(1,actualOpening.length);
+        const distinctive=['सूर्यांश','हिमांशी','रक्षित','दिव्य','बीज'].filter(token=>wanted.includes(token)&&actual.includes(token)).length;
+        if(overlap>=0.62||openingMatch||openingOverlap>=0.65||(distinctive>=4&&overlap>=0.25))return {score:expected,file:name};
       }
     }
   }
