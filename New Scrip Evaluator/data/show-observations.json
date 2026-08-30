@@ -372,6 +372,34 @@
       "The promo repeatedly escalates from emotional betrayal to creature violence, stolen power and exile.",
       "The ending leaves a clear revenge and transformation promise with specific CTA possibilities."
     ],
+    "above_avg_reference": {
+      "promo": "TBG-Shailendra-LP4",
+      "score_band": "8.5+ / P0 Above Avg",
+      "observed_strengths": [
+        "Opens with Kavya publicly declaring Rudra a predator while he kneels beside the dead golden Garuda, combining accusation, grief and mystery in one image.",
+        "Clearly explains the Garuda world's life-bond creature rule and why Rudra's rare four-winged Swarn matters to his identity and power.",
+        "Kavya's bargain with Samar gives the betrayal a specific motive—access to Swarg Mahal—instead of making her villainy random.",
+        "The storm, lightning chains, false accusation and Swarn's death create strong audio-visual scene design and irreversible emotional consequences.",
+        "Rudra's humiliation, stolen Mahakaal Divine Soul and destroyed bond creature establish a credible revenge transformation engine."
+      ],
+      "observed_patterns": {
+        "Hook": "A public false accusation over a dead companion is emotionally explosive and asks whether Rudra is guilty or framed; it is strong, though slightly more explanatory than the palm-eye hook of the Topper anchors.",
+        "Context & World Clarity": "Life-bond creatures, Swarn's rarity, Agnigiri Vidyapeeth, Rudra's royal status and the Mahakaal Soul are source-specific and understandable, but the opening carries a lot of terminology.",
+        "Sequence & Plot Movement": "Public accusation/dead Swarn -> world rules and Rudra's history -> Kavya's bargain -> staged assault -> Samar's lightning restraint -> Swarn killed and soul stolen. The chain is clear and each reveal worsens Rudra's loss.",
+        "Scene Design": "The dead Garuda, rain, torn clothes, lightning chains and soul extraction are vivid. Kavya's false performance is the central dramatic device and creates visible status collapse.",
+        "Pacing & Transitions": "The hook and flashback are coherent, but the long world/history section slows the middle before the betrayal scene returns. Sound and storm motifs help bridge the timeline.",
+        "Ending, Callback & CTA": "The best ending leaves Rudra framed, exiled or powerless while Samar owns the divine soul. CTA should ask whether Rudra will regain power, expose Kavya, avenge Swarn and awaken the Phoenix/demonic hand.",
+        "Narration/Dialogue Balance": "Dialogue is sharp in the accusation, bargain and revenge lines; narration supplies mythology and backstory. Some exposition could be converted into conflict to reach full Topper control.",
+        "Mental Impact & Recall Value": "The kneeling Rudra beside Swarn's corpse, Kavya's public lie, lightning restraints and stolen soul are highly memorable, with the emotional cost clearly attached to the fantasy mechanism.",
+        "Follow successful promos pattern": "It closely matches the Beast Guru Topper structure—betrayal, life-bond loss, public downfall and supernatural power theft—but the longer explanatory middle and delayed new-power payoff place it at Above Avg."
+      },
+      "why_not_topper": [
+        "The mythology and institutional history arrive in a large explanatory block, slowing the immediate betrayal momentum.",
+        "The red-eye/demonic-hand or Infinite Fire Phoenix transformation is not yet as immediate and concentrated as in the Topper anchors.",
+        "The CTA must convert the revenge setup into 3–4 precise questions rather than ending only on Rudra's suffering."
+      ],
+      "calibration": "Use TBG-Shailendra-LP4 as the P0 Above Avg anchor at 8.5+. Reward public false accusation, life-bond specificity, motivated betrayal, visual creature loss and stolen-power consequences. Deduct for terminology overload, exposition-heavy middle, delayed Phoenix payoff or generic CTA."
+    },
     "calibration": "Use these as P0 Topper anchors for The Beast Guru. Reward an original physical mystery, life-bond specificity, visual betrayal/loss, public downfall and a motivated Phoenix/revenge transformation. Do not reward fantasy terminology or power claims without a concrete emotional cost and scene consequence."
   }
 }
