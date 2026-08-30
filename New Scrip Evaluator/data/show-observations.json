@@ -298,6 +298,34 @@
       "The promos create strong status reversals through entrances, guards, threats and the masked KS identity.",
       "The final mystery naturally extends into marriage, revenge, identity and survival questions."
     ],
+    "above_avg_reference": {
+      "promo": "BRHW-Mirant-LP1-Akshay-V1",
+      "score_band": "8.5+ / P0 Above Avg",
+      "observed_strengths": [
+        "Opens with a high-value romantic identity reversal: Ananya rejects Kartik's demand to become his wife while unknowingly speaking to her own husband.",
+        "The hidden-wife premise is extremely clear—the audience knows Anika/Ananya's identity while Kartik does not, creating dramatic irony.",
+        "The airport slap, family-gate humiliation and Baani's privileged entrance give Anika repeated, visual dignity-versus-status reversals.",
+        "The promo connects Kartik's attraction, the past revenge marriage, the ₹200-crore family bargain and Anika's rejected-daughter wound.",
+        "Anika's dialogue protects her agency: money cannot buy her, and her self-respect remains stronger than Kartik's power."
+      ],
+      "observed_patterns": {
+        "Hook": "A direct proposition/retort creates immediate romantic danger and an identity question. The best hook is the irony that Kartik wants his own divorced/rejected wife without recognizing her.",
+        "Context & World Clarity": "Ananya's new identity, Anika's past, Kartik's ruthless billionaire/underworld persona, family rejection and revenge marriage are progressively clarified. The dual-name setup must remain explicit to avoid confusion.",
+        "Sequence & Plot Movement": "Present confrontation -> reveal that Kartik is the unknown husband -> airport dignity stand -> rejection at own home -> family marriage bargain/backstory. Each flashback explains why the present desire is dangerous.",
+        "Scene Design": "The strongest scenes use a sharp contrast: Kartik offers possession/money, Ananya refuses; Anika slaps the predator; the family gate rejects her while Baani enters. Public actions make the emotional wound visible.",
+        "Pacing & Transitions": "The cold open moves quickly, then the one-month flashback follows the same theme of Anika's dignity under assault. The repeated home/airport locations are effective but need compression so the marriage bargain remains the next escalation.",
+        "Ending, Callback & CTA": "End with the hidden-wife collision, Kartik's search/revenge and Anika's survival unresolved. CTA questions should specifically ask when Kartik will recognize Ananya as Anika, why he divorced/targeted her, whether the family will sacrifice her and whether their relationship can survive.",
+        "Narration/Dialogue Balance": "Dialogue drives the romantic power struggle and Anika's self-respect; narration supplies identity and family history. The strongest lines are short, confrontational and reveal the secret rather than repeating descriptions.",
+        "Mental Impact & Recall Value": "The memorable anchors are a billionaire trying to possess his own wife, Anika falling in the mud outside her own home, Baani being welcomed inside, and Ananya declaring that she cannot be bought.",
+        "Follow successful promos pattern": "It matches BRHW Topper structure through danger, rejected daughter, money-driven marriage and Kartik's fixation, but is Above Avg because the long backstory and repeated humiliation need tighter control before the full hidden-wife payoff."
+      },
+      "why_not_topper": [
+        "The central present-day confrontation is strong, but the full Kartik-Ananya hidden-wife collision is deferred for a long flashback.",
+        "Airport and home humiliation beats are memorable yet thematically repetitive; a new consequence is needed after each one.",
+        "The promo needs an even sharper final survival/revenge cliffhanger and more direct mafia-level danger to match the strongest Topper anchors."
+      ],
+      "calibration": "Use BRHW-Mirant-LP1-Akshay-V1 as the P0 Above Avg anchor at 8.5+. Reward dramatic irony, Anika's active dignity, the hidden-wife contradiction and the source-specific ₹200-crore marriage/revenge setup. Deduct for repeated humiliation, delayed payoff, identity confusion or a generic CTA."
+    },
     "calibration": "Use these as P0 Topper anchors for Billionaire Hidden Wife. Reward a danger-led hook, source-specific family bargain, Anika's active dignity, Kartik's unexplained fixation and a concrete marriage/revenge cliffhanger. Do not award Topper for generic billionaire threats without the 200-crore betrayal and hidden-wife mystery."
   }
 }
