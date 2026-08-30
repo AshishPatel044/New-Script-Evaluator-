@@ -141,6 +141,33 @@
       },
       "calibration": "Use TWAR-Pranjali-LP8 as the P1 Avg anchor. Reward source fidelity, logical reincarnation progression and visual pearl imagery, but deduct for repeated exposition, long setup before personal conflict, passive summary and a non-specific CTA. Length alone is not a penalty; repetition and missing consequences are."
     },
+    "rejected_references": {
+      "promos": ["War-Anushree-LP1", "TWAR-Chaitanya-LP1", "TWAR-Prakash-LP8"],
+      "score_band": "below 6 / P2 Rejected",
+      "observed_patterns": {
+        "Hook": "The promos begin with provocative ingredients—an inappropriate intimacy accusation, a forced wedding or a public insult—but the hook is either confusing, morally distracting or generic. It does not cleanly establish Atharv's central identity contradiction and stakes.",
+        "Context & World Clarity": "Names and basic weakness/wedding details are present, but identity labels and terminology drift (Atharv/Arth/Earth, warrior versus weak body). The Warrior world, Sky Poison Pearl and reincarnation premise are introduced through abrupt explanation instead of a focused emotional situation.",
+        "Sequence & Plot Movement": "The beats often jump from wedding or insult to poison, then to an ancient-war flashback. The sequence has ingredients but weak causal connection: scenes explain what happened rather than showing Atharv making a choice that creates the next danger.",
+        "Scene Design": "There are possible set pieces—poisoned porridge, wedding confrontation, competition, pearl siege—but they are frequently summarized or interrupted by backstory. Reactions and insults repeat without a strong decision/consequence escalation.",
+        "Pacing & Transitions": "The opening spends too long on repetitive humiliation, explicit/misdirecting material or generic crowd mockery, then abruptly jumps into mythology. Flashback transitions lack the clean sound/image/question bridges used by the Topper references.",
+        "Ending, Callback & CTA": "The central payoff is delayed or incomplete. The rejected scripts do not consistently end with Atharv's rebirth/power contradiction plus 3–4 specific questions about Arya, the pearl, Sarparaj and his second life. A generic continuation question cannot replace a precise cliffhanger CTA.",
+        "Narration/Dialogue Balance": "Dialogue often repeats insults or states obvious information, while narration becomes a long recap of the pearl and past war. Character lines rarely reveal a new motive, make a vow or force a consequence.",
+        "Mental Impact & Recall Value": "Individual images exist, but the lasting impression is confusion, public humiliation or a generic weak-boy scene rather than the clear two-body contrast, pearl sacrifice and warrior rebirth that defines the show.",
+        "Follow successful promos pattern": "They use surface ingredients from The Warrior—weak Atharv, Arya, poison, pearl and past warrior—but miss the Topper chain of immediate contradiction -> pearl-driven last stand -> death/rebirth -> personal rejection -> specific future threat. Surface vocabulary alone must not receive a high pattern score."
+      },
+      "promo_specific_notes": {
+        "War-Anushree-LP1": "The opening implies an intimate betrayal involving Sarika and makes the relationship situation confusing before the actual Warrior premise is established. The poison and pearl material is potentially strong but arrives as a long explanatory pivot; the hook and character identities need clearer grounding.",
+        "TWAR-Chaitanya-LP1": "The forced-marriage context is understandable, but the opening dialogue is flat and the crowd/Aarav exposition repeats Atharv's weakness. The transition to the Azure Cloud battle is abrupt, and the pearl's role is presented as information before it becomes a personal sacrifice.",
+        "TWAR-Prakash-LP8": "The public competition insult is a usable conflict, but the princess/royal framing is less anchored to the core Arya setup and the humiliation repeats. The long pearl origin recap delays the present-tense consequence and the rebirth/power payoff is not concentrated enough."
+      },
+      "contrast_with_topper": [
+        "Topper references make the pearl and past-life identity cause Atharv's sacrifice; rejected references often treat them as exposition after a generic insult.",
+        "Topper hooks are specific contradictions with a clean question; rejected openings can be provocative but unclear or disconnected from the show's central promise.",
+        "Topper scenes progress through visible choices and consequences; rejected scenes repeat mockery, weakness and backstory.",
+        "A promo is not rejected for being short or long. It is rejected when its added length does not create a new reveal, threat, decision or consequence."
+      ],
+      "calibration": "Use these three as The Warrior P2 anchors. Keep a new promo below 6 when it has identity confusion, generic or distracting hook, recap-heavy mythology, weak causal escalation, diluted pearl/rebirth payoff or a vague CTA—even if it mentions Atharv, Arya and the Sky Poison Pearl."
+    },
     "calibration": "Use these five as P0 Topper anchors for The Warrior. Reward causal identity contrast, pearl-driven stakes, dramatized war/reincarnation, Arya-Atharv emotional conflict, clean flashback transitions and a 3–4 question cliffhanger. Do not deduct merely because a promo is long; deduct only for repetition, unsupported exposition or scenes that do not create a new consequence."
   }
 }
