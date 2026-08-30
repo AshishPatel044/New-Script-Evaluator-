@@ -62,5 +62,29 @@
       "calibration": "Use these three as P2 anchors. A new King of Dragon promo matching this profile should remain below 6 even when it contains the show's names and surface ingredients. Give high scores only when the content earns scene-by-scene escalation, source-grounded specificity, a meaningful sacrifice, a memorable Dragon King payoff and a precise CTA."
     },
     "calibration": "A new King of Dragon promo should score near P0 only when it preserves this emotional-to-supernatural progression and has comparable scene specificity, escalation, memorability and show truth. Do not award P0 for generic cultivation/power language alone."
+  },
+  "The Warrior": {
+    "tier": "P0 Topper",
+    "references": ["TWAR-Akshay-LP1-30 Mins-V2", "TWAR-Hasim-LP1", "TWAR-Pranjali-LP7", "TWAR-Pranjali-LP7-Hasim-V1", "TWAR-Pranjali-LP8-Hasim-V1"],
+    "source_grounded_patterns": {
+      "Hook": "Open with a high-stakes line from Atharv or Arya that immediately exposes the central contradiction: a legendary warrior has fallen into a weak body, or a powerful bride rejects the marriage. The strongest hooks are specific, visual and emotionally hostile, not generic cultivation narration.",
+      "Context & World Clarity": "Establish the two identities quickly: Atharv Dev, the legendary warrior of Azure Cloud, and Atharv Churu, the frail boy of Tian City. Name the Sky Poison Pearl, the deadly mountain battle, Arya's power and the social cost of Atharv's weakness so the reincarnation is easy to follow.",
+      "Sequence & Plot Movement": "The topper sequence is: impossible last stand for the pearl -> Atharv is killed or transported -> awakening in Tian City/weak body -> marriage or clan rejection -> hints of the past-life power and future enemies. Every flashback answers the present mystery and raises the next threat.",
+      "Scene Design": "Use cinematic set pieces with a clear action and consequence: thousands attack, the pearl is protected, the spear pierces Atharv, he awakens in a strange world, Arya rejects or tests him, and the weak body is contrasted against the warrior identity. The pearl and reincarnation must drive choices, not merely decorate narration.",
+      "Pacing & Transitions": "Start at maximum danger, then use the death/awakening transition to shift from epic war to intimate marital or clan conflict. Flashbacks are signposted with sound/image cues and return to the present with a new question. Long promos remain length-agnostic when each beat adds danger, identity or emotional pressure.",
+      "Ending, Callback & CTA": "End on the unresolved contradiction: why did the legendary warrior die, why is he reborn weak, can the forced marriage become love, and when will his power return? Strong CTAs ask 3–4 concrete questions tied to the pearl, Arya, Sarparaj and Atharv's second life, followed by Pocket FM.",
+      "Narration/Dialogue Balance": "Narration supplies scale, mythology and clean visual bridges; short dialogue supplies threat, rejection, vow and identity. The best promos avoid making every character explain the same backstory and use dialogue as a pressure event.",
+      "Mental Impact & Recall Value": "The memorable contrast is one man in two bodies: a blood-covered warrior defending a divine pearl and a frail young husband mocked by the city. The Sky Poison Pearl, black mountain, Arya's cold marriage line and Atharv's return/power promise form the recall anchors.",
+      "Follow successful promos pattern": "Topper promos combine reincarnation mystery, war spectacle and relationship rejection, then connect them through the same question of identity and power. A promo should not receive a high pattern score for fantasy vocabulary alone; it must reproduce the causal progression, visual contrast and specific cliffhanger structure.",
+      "pattern_signature": "Legendary warrior's last stand for Sky Poison Pearl + death/reincarnation + frail Atharv Churu + powerful Arya's rejection/forced marriage + hidden past identity + Sarparaj threat + 3–4 specific future questions."
+    },
+    "why_topper": [
+      "The opening creates an immediate contradiction and stakes instead of slowly introducing the world.",
+      "The past-life war is visual and causally linked to Atharv's present weakness and reincarnation.",
+      "Arya's rejection gives the fantasy premise a personal emotional engine, while the pearl gives it a concrete external objective.",
+      "The promos use clean scene transitions, sound/image cues and escalating reveals even at long length.",
+      "The ending preserves both relationship uncertainty and supernatural mystery through specific CTA questions."
+    ],
+    "calibration": "Use these five as P0 Topper anchors for The Warrior. Reward causal identity contrast, pearl-driven stakes, dramatized war/reincarnation, Arya-Atharv emotional conflict, clean flashback transitions and a 3–4 question cliffhanger. Do not deduct merely because a promo is long; deduct only for repetition, unsupported exposition or scenes that do not create a new consequence."
   }
 }
