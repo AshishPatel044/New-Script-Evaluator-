@@ -400,6 +400,31 @@
       ],
       "calibration": "Use TBG-Shailendra-LP4 as the P0 Above Avg anchor at 8.5+. Reward public false accusation, life-bond specificity, motivated betrayal, visual creature loss and stolen-power consequences. Deduct for terminology overload, exposition-heavy middle, delayed Phoenix payoff or generic CTA."
     },
+    "rejected_references": {
+      "promos": ["TBG-Pranjali-LP1", "TBG-Shailendra-LP1"],
+      "score_band": "below 6 / P2 Rejected",
+      "observed_patterns": {
+        "Hook": "Both begin with the same betrayal/false-accusation setup, but the hook is derivative and quickly explains the situation instead of creating a fresh red-eye/Phoenix mystery. The repeated sexual-misconduct framing can also overpower the show's broader fantasy promise.",
+        "Context & World Clarity": "Life-bond creatures, Swarn and Mahakaal Divine Soul are present, but large rule/history paragraphs and shifting terms make the fantasy hierarchy harder to follow. Rudra's new power identity is not grounded early enough.",
+        "Sequence & Plot Movement": "Kavya's seduction/frame -> Samar attack -> Swarn's death -> betrayal explanation is clear at a basic level, but both promos repeat the same event and spend too long recapping it. New forward movement toward the Phoenix/revenge is delayed.",
+        "Scene Design": "The storm, lightning, false accusation and torn Swarn are visually strong, yet the scene is dominated by suffering and narration. Rudra makes few active choices before the loss, so consequences feel imposed rather than driven by his decisions.",
+        "Pacing & Transitions": "The opening betrayal is stretched with repeated descriptions of crying, accusation and creature pain; then the script jumps into world exposition or a long three-year recap. The emotional beat does not accelerate into a new supernatural turn quickly enough.",
+        "Ending, Callback & CTA": "The betrayal and loss are often treated as the ending itself. The promo needs to finish on a specific next threat—Phoenix awakening, demonic hand, revenge or recovery of the divine soul—with 3–4 concrete questions and Pocket FM CTA.",
+        "Narration/Dialogue Balance": "Narration repeatedly labels Kavya's betrayal and Rudra's pain, while dialogue repeats accusation and revenge. The strongest lines should reveal motive or trigger a decision, not restate the same crime.",
+        "Mental Impact & Recall Value": "Swarn's death is memorable, but the listener may mainly recall the repeated false-rape accusation. The red-eye/Phoenix transformation and distinctive cosmic mythology are not made the dominant final image.",
+        "Follow successful promos pattern": "They copy the surface betrayal and life-bond loss of the Topper references but miss the concentrated body-power mystery, motivated reveal ladder and fast transition from loss to a new Beast Guru transformation."
+      },
+      "promo_specific_notes": {
+        "TBG-Pranjali-LP1": "The opening is intriguing but quickly becomes a prolonged accusation scene. The world rule and Swarn-loss meaning arrive after repeated explanation; the revenge promise is present, yet the new Phoenix/red-eye payoff is delayed and the ending remains dominated by the old betrayal.",
+        "TBG-Shailendra-LP1": "The divorce-letter framing is a dramatic mismatch for this show's central life-bond fantasy and creates confusion about the relationship/status setup. Its long academy and three-year exposition block delays the transformation, while repeated public shame weakens the final supernatural cliffhanger."
+      },
+      "contrast_with_topper": [
+        "Topper promos open with a new physical mystery and use the betrayal to explain that mystery; rejected promos open with a familiar accusation and delay the new power.",
+        "Topper scenes make Swarn's loss cause an immediate supernatural consequence; rejected scenes linger on pain and recap.",
+        "Topper endings promise a specific Phoenix/red-eye revenge transformation; rejected endings stop at humiliation or broad revenge language."
+      ],
+      "calibration": "Use these as The Beast Guru P2 anchors. Keep new promos below 6 when they rely on repeated false-accusation exposition, derivative betrayal setup, long mythology recap, passive suffering, delayed red-eye/Phoenix payoff or vague CTA—even when Swarn and Mahakaal Soul are mentioned."
+    },
     "calibration": "Use these as P0 Topper anchors for The Beast Guru. Reward an original physical mystery, life-bond specificity, visual betrayal/loss, public downfall and a motivated Phoenix/revenge transformation. Do not reward fantasy terminology or power claims without a concrete emotional cost and scene consequence."
   }
 }
