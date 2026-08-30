@@ -248,6 +248,32 @@
       },
       "calibration": "Use MMP-Pranjali-LP8 as the P1 Avg anchor at 7.5+. Reward an immediate medical crisis, visible status reversal and source-grounded DNA conflict; deduct for easy/announced success, multi-threaded exposition, indirect competence proof and generic identity CTA."
     },
+    "rejected_references": {
+      "promos": ["MMP-Pranjali-LP3", "MMP-Mona-LP2-Anupma-V1", "MMP-Prakash-LP2"],
+      "score_band": "below 6 / P2 Rejected",
+      "observed_patterns": {
+        "Hook": "The promos contain medical mystery, a garba setting or a theft accusation, but the hook is either over-explained, tonally distracting or generic. It does not compress Anamika's competence and identity conflict into one sharp contradiction.",
+        "Context & World Clarity": "Family/DNA and medical context exists, but character relationships and chronology are repeated in long exposition. The hidden Oberoi identity, Devansh world and Anamika's exceptional abilities are not consistently introduced through focused action.",
+        "Sequence & Plot Movement": "The scripts jump between relationship breakup, kidney/medical details, family rejection, donor logistics and necklace theft. Beats often add information without a new decision or consequence, so the story feels like recap rather than escalating reveal.",
+        "Scene Design": "Potentially useful scenes—diagnosing by touch, kidney donation, DNA news and planted necklace—are frequently told or immediately resolved. Anamika's response does not always produce a strong public reversal like the Topper necklace/car or surgery scenes.",
+        "Pacing & Transitions": "Long setup blocks and repeated family explanations slow the opening; some transitions shift abruptly from festival/romance or medical talk to DNA exposition. Objects and questions are not used consistently as bridges.",
+        "Ending, Callback & CTA": "The ending tends toward a broad secret/identity tease or unresolved medical information rather than 3–4 specific questions about Anamika's hidden ability, Devansh, Oberoi family and Jivika's next move. Pocket FM CTA needs to follow a concrete cliffhanger.",
+        "Narration/Dialogue Balance": "Narration often explains that Anamika is a genius instead of letting her solve a difficult problem on the page. Dialogue can be repetitive, melodramatic or focused on logistics rather than insult, challenge, reveal and consequence.",
+        "Mental Impact & Recall Value": "The promos have individual hooks, but the dominant memory becomes a long family/DNA explanation, festival description or theft accusation. The calm, capable hidden-princess image is not consistently reinforced through memorable proof.",
+        "Follow successful promos pattern": "They borrow MMP ingredients—medical genius, DNA reveal, family rejection, fiancé and necklace—but miss the Topper pattern of immediate crisis, composed competence, visible status reversal and a focused identity cliffhanger. Ingredient matching alone must not earn a high pattern score."
+      },
+      "promo_specific_notes": {
+        "MMP-Pranjali-LP3": "The medical-by-touch and breakup premise is intriguing, but the opening spends too long explaining the miracle and relationship. The kidney plot then repeats the same secret reveal; Anamika's competence is announced more than dramatized, and the emotional breakup distracts from the core hidden-heiress engine.",
+        "MMP-Mona-LP2-Anupma-V1": "The garba opening creates atmosphere but delays the show's strongest crisis. Kidney-donor logistics, repeated good-news/bad-news beats and the DNA reveal create a stop-start structure; Anamika's medical/business power is described in profile-style narration instead of proven in a difficult scene.",
+        "MMP-Prakash-LP2": "The theft accusation and ruby-necklace setup connect to the show, but the opening is a long explanatory family recap. Jivika and Meena repeat the accusation, while Anamika's reversal and hidden identity payoff are not concentrated enough to produce Topper-level recall."
+      },
+      "contrast_with_topper": [
+        "Topper promos make Anamika prove exceptional ability through a high-stakes action; rejected promos often state her ability or use a routine medical/logistical beat.",
+        "Topper promos use one dominant crisis and a clean reversal; rejected promos stack family, romance, festival, donor and theft threads without one controlling escalation.",
+        "Topper endings turn identity and competence into specific questions; rejected endings remain broad or incomplete."
+      ],
+      "calibration": "Use these three as MMP P2 anchors. Keep a new promo below 6 when it has generic/distracting hook, recap-heavy DNA or medical exposition, weak visible competence, repeated accusation, diffuse plot threads or vague CTA—even if it mentions Anamika, Devansh, DNA and medical genius."
+    },
     "calibration": "Use these two as P0 Topper anchors for My Mysterious Princess. Reward a specific crisis, calm competence, visible status reversal, source-grounded identity mystery and sharp CTA. Do not reward generic rich-family insults alone; the promo must prove Anamika's exceptional ability through action."
   }
 }
