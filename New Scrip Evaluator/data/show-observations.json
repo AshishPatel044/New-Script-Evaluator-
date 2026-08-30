@@ -449,6 +449,34 @@
       "Lightning is shown as a consequence of Suryansh speaking, not merely claimed as a power.",
       "The ending naturally holds back the full awakening while leaving romantic, family and cosmic threats unresolved."
     ],
+    "above_avg_reference": {
+      "promo": "PG-Pranjali-LP3",
+      "score_band": "8.5+ / P0 Above Avg",
+      "observed_strengths": [
+        "Opens with a cosmic warning that the mute Suryansh is hunted by the universe, immediately expanding the personal secret into a world-level threat.",
+        "The Divine Tree, newly awakened Spirit Root and destructive voice are concrete mystery objects/powers connected to his father's hidden legacy.",
+        "Nayra's sword-to-neck refusal and Mary's decision to sacrifice Himanshi create a clear public marriage crisis.",
+        "Rakshit's possessive threat adds a second antagonist and turns the old vow into a conflict of power, love and ownership.",
+        "The rooftop reveal makes Suryansh's voice/lightning power emotionally meaningful because he accepts danger to protect Himanshi."
+      ],
+      "observed_patterns": {
+        "Hook": "The cosmic declaration plus Suryansh's fear creates a high-concept mystery, but it is more abstract than the Topper's immediate court/marriage humiliation hook.",
+        "Context & World Clarity": "Divine Tree, Spirit Root, spirit levels, old marriage vow and family roles are clear, though the cosmic mythology adds terminology before the emotional situation is fully grounded.",
+        "Sequence & Plot Movement": "Cosmic threat -> Spirit Root discovery -> Nayra rejects vow -> Himanshi is sacrificed -> Rakshit vows murder -> rooftop voice/lightning reveal. Each turn raises the danger and changes the marriage meaning.",
+        "Scene Design": "Sword-to-neck, written acceptance, rooftop grief and lightning voice are strong visual/audio scenes. The Divine Tree and Spirit Root need a more concrete action payoff to equal the Topper's direct voice/lightning proof.",
+        "Pacing & Transitions": "The opening is urgent, the court conflict is readable and the rooftop scene lands emotionally. The cosmic exposition slightly slows the first half and competes with the marriage engine.",
+        "Ending, Callback & CTA": "End with the first dangerous use of Suryansh's voice, Rakshit's attack or the Divine Tree mystery unresolved. CTA should ask why the universe hunts him, whether Himanshi will survive, when his full power awakens and who controls the Divine Tree.",
+        "Narration/Dialogue Balance": "Dialogue is effective in Nayra's refusal, Rakshit's possessive threat and Suryansh's protective vow; narration carries the cosmic rules and power explanation. The strongest lines reveal motive or force a choice.",
+        "Mental Impact & Recall Value": "The cosmic voice, sword at Nayra's neck, sacrificed Himanshi and Suryansh's voice summoning lightning are memorable; the opening's abstract threat is less immediately personal than the Topper anchors.",
+        "Follow successful promos pattern": "It follows the Primordial God pattern of mute outcast, hidden cosmic power, forced marriage and Himanshi protection, but its cosmic opening and multiple power terms make it slightly less controlled than the Topper references."
+      },
+      "why_not_topper": [
+        "The cosmic threat is intriguing but abstract; the personal stakes take time to arrive.",
+        "Divine Tree and Spirit Root mythology add scale but can dilute the single strongest voice-to-lightning reveal.",
+        "The promo needs a more concentrated final transformation or attack payoff and sharply specific CTA questions."
+      ],
+      "calibration": "Use PG-Pranjali-LP3 as the P0 Above Avg anchor at 8.5+. Reward cosmic mystery tied to source mythology, clear marriage sacrifice, Himanshi-driven emotional choice, Suryansh's voice/lightning proof and a specific awakening threat. Deduct for abstract opening, terminology overload, delayed payoff or generic CTA."
+    },
     "calibration": "Use these as P0 Topper anchors for Primordial God. Reward a clear mute-to-cosmic contradiction, source-specific spirit hierarchy, Himanshi-driven emotional choice, visible voice/lightning proof and a precise awakening/assassination CTA. Do not reward generic 'hidden power' language without the marriage trap and audible lightning consequence."
   }
 }
