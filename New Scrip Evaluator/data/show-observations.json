@@ -426,5 +426,29 @@
       "calibration": "Use these as The Beast Guru P2 anchors. Keep new promos below 6 when they rely on repeated false-accusation exposition, derivative betrayal setup, long mythology recap, passive suffering, delayed red-eye/Phoenix payoff or vague CTA—even when Swarn and Mahakaal Soul are mentioned."
     },
     "calibration": "Use these as P0 Topper anchors for The Beast Guru. Reward an original physical mystery, life-bond specificity, visual betrayal/loss, public downfall and a motivated Phoenix/revenge transformation. Do not reward fantasy terminology or power claims without a concrete emotional cost and scene consequence."
+  },
+  "Primordial God": {
+    "tier": "P0 Topper",
+    "references": ["PG-Hasim-LP1-V1", "PG-Shailendra-LP3"],
+    "source_grounded_patterns": {
+      "Hook": "Open with the forced marriage of a mute, powerless outcast: the father asks Suryansh to marry Himanshi while Naira threatens suicide, or Mary throws food at him and calls him a useless mute. The hook creates immediate injustice and a hidden-promise question.",
+      "Context & World Clarity": "Establish the spirit-power society, Suryansh's supposed zero power and muteness, Naira's sixth/third-level genius status, Himanshi's loyalty, the father's life-saving vow and the hidden divine seed/lightning voice rule.",
+      "Sequence & Plot Movement": "Public marriage trap -> Suryansh accepts on paper -> private Himanshi warning/love reveal -> Suryansh speaks and lightning answers -> his eighteenth-birthday awakening approaches -> Rakshit/Mary threat escalates. The secret changes the meaning of every earlier humiliation.",
+      "Scene Design": "Use concrete reversals: Naira puts a sword to her neck, Suryansh writes instead of speaking, Himanshi offers coins, Suryansh asks who will protect her, then his voice summons lightning. The contrast between public mute weakness and private cosmic power is the main scene engine.",
+      "Pacing & Transitions": "The family-court humiliation slows for emotional intimacy, then the first spoken line and lightning accelerate the fantasy promise. The vow, age threshold, buried golden chest/divine seed and approaching sunrise create clean bridges.",
+      "Ending, Callback & CTA": "End just before the full spirit awakening or with Rakshit approaching to kill Suryansh. Ask specific questions about the divine seed, why his voice controls lightning, whether Himanshi will survive, whether the marriage will stand and who stole/guards the Divine Tree, followed by Pocket FM CTA.",
+      "Narration/Dialogue Balance": "Narration explains the spirit hierarchy and father's sacrifice; dialogue is short and high-value—marriage refusal, warning, love confession, protective vow and lightning reveal. Suryansh's silence makes each spoken line a major payoff.",
+      "Mental Impact & Recall Value": "The unforgettable contrast is a boy everyone calls mute and powerless whose single voice makes the sky explode, while Himanshi is the only person who sees his humanity. Sword-at-neck, written answer, silver coins and lightning are strong anchors.",
+      "Follow successful promos pattern": "The Topper pattern is hidden power revealed through an intimate relationship choice, not generic fantasy exposition. Family sacrifice, social humiliation, romantic protection and a visible voice-to-lightning rule all cause the next reveal.",
+      "pattern_signature": "Mute zero-spirit outcast + forced marriage/sword refusal + loyal Himanshi + hidden divine seed and buried secret + first spoken words summon heavenly lightning + eighteenth-birthday awakening + Rakshit threat + specific destiny/marriage CTA."
+    },
+    "why_topper": [
+      "The mute/powerless identity is a strong misdirection with an immediate visual payoff.",
+      "Himanshi's sacrifice and love give the power reveal emotional meaning.",
+      "The marriage trap, vow and age deadline create a clean chain of escalating stakes.",
+      "Lightning is shown as a consequence of Suryansh speaking, not merely claimed as a power.",
+      "The ending naturally holds back the full awakening while leaving romantic, family and cosmic threats unresolved."
+    ],
+    "calibration": "Use these as P0 Topper anchors for Primordial God. Reward a clear mute-to-cosmic contradiction, source-specific spirit hierarchy, Himanshi-driven emotional choice, visible voice/lightning proof and a precise awakening/assassination CTA. Do not reward generic 'hidden power' language without the marriage trap and audible lightning consequence."
   }
 }
