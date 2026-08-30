@@ -27,6 +27,13 @@
       "why_not_topper": ["The long origin section slows the middle compared with the fastest Topper references.", "The promo is more dependent on a later reveal and has less early scene variety than the strongest references.", "Its callback is thematic rather than a clearly recognisable Episode 1 opening callback."],
       "calibration": "Use this as the P0 Above Avg anchor: high emotional and pattern fit, but deduct when the middle drags or the callback is thematic rather than fully integrated."
     },
+    "avg_reference": {
+      "promo": "KODGN-Mirant-LP1",
+      "score_band": "7.5+ / P1 Avg",
+      "observed_strengths": ["Uses a striking future Dragon King death scene as a mystery hook.", "Clearly establishes Arjun's coma, sacrifice, betrayal, Shalini's suffering and the Dragon King transfer.", "The mother-son and sacrifice theme gives the fantasy reveal emotional meaning.", "The final questions cover the Dragon King's killer, Arjun's future, Shivanya's danger and revenge."],
+      "why_avg_not_topper": ["The opening future vision is powerful but creates a timeline jump that is less immediately grounded than the strongest Topper hooks.", "The promo spends a large amount of time retelling setup and repeats betrayal/weakness beats.", "The scene sequence is more summary-heavy and contains fewer fully dramatized present-tense set pieces.", "The ending has a strong mystery but the CTA is less character-specific and less emotionally explosive than the Topper examples."],
+      "calibration": "Use this as the P1 Avg anchor: strong source-aligned premise and curiosity, but deduct for timeline clarity, exposition density, repeated setup and weaker scene-to-scene dramatization."
+    },
     "calibration": "A new King of Dragon promo should score near P0 only when it preserves this emotional-to-supernatural progression and has comparable scene specificity, escalation, memorability and show truth. Do not award P0 for generic cultivation/power language alone."
   }
 }
