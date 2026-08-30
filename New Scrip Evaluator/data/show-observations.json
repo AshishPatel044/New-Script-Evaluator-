@@ -349,5 +349,29 @@
       "calibration": "Use BRHW-Mirant-LP2 as the P2 below-6 anchor. Deduct for aftermath openings, timeline jumps, static exposition, delayed Kartik-Anika collision, weak escalation and vague CTA. Do not reward the presence of the money bargain or divorce alone; the promo must dramatize danger, agency and hidden-wife irony."
     },
     "calibration": "Use these as P0 Topper anchors for Billionaire Hidden Wife. Reward a danger-led hook, source-specific family bargain, Anika's active dignity, Kartik's unexplained fixation and a concrete marriage/revenge cliffhanger. Do not award Topper for generic billionaire threats without the 200-crore betrayal and hidden-wife mystery."
+  },
+  "The Beast Guru": {
+    "tier": "P0 Topper",
+    "references": ["TBG-Akshay-LP3", "TBG-Akshay-LP3-V2"],
+    "source_grounded_patterns": {
+      "Hook": "Open with Rudra discovering a red eye in his palm. It is an impossible, physical mystery that immediately promises a new power while connecting to his three-year-old betrayal wound.",
+      "Context & World Clarity": "Establish the Garuda Empire's life-bond creatures, Rudra's golden four-winged Garuda Swarn, Kavya's betrayal and Samar's Three-eyed Hawk. The Mahakaal Divine Soul and Infinite Fire Phoenix must be tied to clear ownership, danger and consequence.",
+      "Sequence & Plot Movement": "Palm-eye discovery -> pain triggers betrayal flashback -> Kavya frames Rudra -> Samar kills/attacks Swarn to steal the divine soul -> Rudra is disgraced and exiled -> the red-eye/demonic-hand and Phoenix power promise a revenge transformation. Every reveal escalates loss and future power.",
+      "Scene Design": "Use highly visual actions: red eye seeing while Rudra's eyes are closed, storm and roof destruction, lightning binding, Swarn's wings being torn, Kavya's false accusation and public exile. The best beats have a clear betrayal, choice, injury or irreversible consequence.",
+      "Pacing & Transitions": "The present palm mystery naturally opens the three-year flashback; rain, pain and lightning bridge scenes. The emotional betrayal slows enough to land, then supernatural action and public punishment accelerate the story toward revenge.",
+      "Ending, Callback & CTA": "End with Rudra's exile, mother/family danger, demonic hand/Infinite Fire Phoenix awakening or the promise to reclaim the divine soul. Ask specific questions about Rudra's new power, Swarn's soul, Kavya/Samar's punishment and whether the Phoenix can change his fate, followed by Pocket FM CTA.",
+      "Narration/Dialogue Balance": "Narration handles the mythology and visual scale; dialogue is compact and character-specific—betrayal, accusation, defence, cruel order and revenge vow. Rudra's lines show moral hurt and a future decision rather than only describing anger.",
+      "Mental Impact & Recall Value": "The red eye in the palm, the golden four-winged Swarn being destroyed by lightning, Kavya's false accusation and Rudra's betrayed-warrior revenge vow are exceptionally memorable.",
+      "Follow successful promos pattern": "The Topper pattern combines an original body-power mystery with a concrete betrayal, a visible loss of the life-bond creature, public status collapse and a new supernatural revenge engine. Generic fantasy powers without this emotional causality should not match the anchor.",
+      "pattern_signature": "Impossible red-eye/demonic-hand mystery + golden life-bond Garuda betrayal and death + false accusation by Kavya + divine soul stolen by Samar + exile/public humiliation + Infinite Fire Phoenix awakening + revenge cliffhanger."
+    },
+    "why_topper": [
+      "The hook is original, instantly visual and directly tied to Rudra's old wound.",
+      "The life-bond creature makes betrayal emotionally and mechanically costly; Swarn's death is not an abstract backstory.",
+      "Kavya's lie creates a public reversal from loved warrior to accused outcast.",
+      "The promo repeatedly escalates from emotional betrayal to creature violence, stolen power and exile.",
+      "The ending leaves a clear revenge and transformation promise with specific CTA possibilities."
+    ],
+    "calibration": "Use these as P0 Topper anchors for The Beast Guru. Reward an original physical mystery, life-bond specificity, visual betrayal/loss, public downfall and a motivated Phoenix/revenge transformation. Do not reward fantasy terminology or power claims without a concrete emotional cost and scene consequence."
   }
 }
