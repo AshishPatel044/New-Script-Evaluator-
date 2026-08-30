@@ -1,0 +1,25 @@
+{
+  "King of Dragon": {
+    "tier": "P0 Topper",
+    "references": ["KOD-Hasim-LP4-V2", "KODGN-Rituraj-LP1-Hasim-V1", "KODGN-Hasim-LP1-30 Mins-V1"],
+    "source_grounded_patterns": {
+      "Hook": "Open with Arjun being rejected, humiliated, betrayed, or forced to confront a high-emotion relationship reversal. The first line is character dialogue and creates an immediate unanswered question.",
+      "Context & World Clarity": "Quickly establish Arjun's weak/outsider state, his bond with Shalini, the insult or betrayal, and why his dignity or family future is at stake before introducing the Dragon King world.",
+      "Sequence & Plot Movement": "Use a clear emotional progression: public humiliation or sacrifice -> protective action for Shivanya -> mysterious Dragon King encounter -> awakening of power -> first physical proof -> new identity and future threat.",
+      "Scene Design": "Each major beat has pressure, a character decision, and a visible consequence: Arjun protects someone, is injured, answers a moral challenge, receives the dragon/power, then demonstrates it in a memorable action.",
+      "Pacing & Transitions": "Let the betrayal and mother-son pain breathe, then accelerate through rescue, supernatural reveal and power demonstration. Transitions are driven by consequence, not unrelated episode summary.",
+      "Ending, Callback & CTA": "End after the identity/power reveal without resolving the revenge or relationship conflict. Ask specific questions about Dragon King's identity, Shivanya's danger, Arjun's revenge and the cost of his new power, followed by Pocket FM CTA.",
+      "Narration/Dialogue Balance": "Narration carries emotional framing, source context and cinematic imagery; dialogue is short, character-specific and used for insult, challenge, promise or reveal.",
+      "Mental Impact & Recall Value": "The listener remembers three anchors: the humiliated but self-sacrificing Arjun, the powerful/complicated Shivanya relationship, and the golden Dragon King transformation.",
+      "pattern_signature": "Emotional humiliation + self-sacrifice + mother/family dignity + mysterious female bond + golden dragon awakening + public identity reversal + 3-4 specific cliffhanger questions."
+    },
+    "why_topper": [
+      "The hook is emotionally specific rather than generic fantasy exposition.",
+      "Arjun's suffering is tied to a clear desire and moral identity, not just weakness.",
+      "The supernatural reveal arrives after emotional investment, so power has meaning.",
+      "The promo contains multiple visual set pieces: public insult, bullet/rescue, cloud realm, golden dragon and first power demonstration.",
+      "The final questions extend both the romance/family conflict and the fantasy mystery instead of resolving either one."
+    ],
+    "calibration": "A new King of Dragon promo should score near P0 only when it preserves this emotional-to-supernatural progression and has comparable scene specificity, escalation, memorability and show truth. Do not award P0 for generic cultivation/power language alone."
+  }
+}
