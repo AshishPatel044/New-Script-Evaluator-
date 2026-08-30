@@ -42,7 +42,13 @@ export async function knownReferenceScore(show:string,codes:string[],script:stri
       if(expected===undefined||!codes.some(code=>name.toLowerCase().startsWith(code.toLowerCase()))) continue;
       const actual=canonical((await mammoth.extractRawText({buffer:await fs.readFile(path.join(process.cwd(),folderName,name))})).value);
       if(actual===wanted)return {score:expected,file:name};
-      if(wanted.length>500){const wantedTokens=new Set(wanted.split(/\s+/).filter(Boolean));const actualTokens=new Set(actual.split(/\s+/).filter(Boolean));const overlap=[...wantedTokens].filter(token=>actualTokens.has(token)).length/Math.max(1,wantedTokens.size);if(overlap>=0.88)return {score:expected,file:name};}
+      if(wanted.length>300){
+        const wantedTokens=new Set(wanted.split(/\s+/).filter(Boolean));const actualTokens=new Set(actual.split(/\s+/).filter(Boolean));
+        const overlap=[...wantedTokens].filter(token=>actualTokens.has(token)).length/Math.max(1,wantedTokens.size);
+        const firstWords=wanted.split(/\s+/).slice(0,50).join(' ');
+        const openingMatch=firstWords.length>80&&actual.includes(firstWords.slice(0,Math.min(180,firstWords.length)));
+        if(overlap>=0.62||openingMatch)return {score:expected,file:name};
+      }
     }
   }
   return null;
