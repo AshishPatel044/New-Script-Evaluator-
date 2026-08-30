@@ -85,6 +85,34 @@
       "The promos use clean scene transitions, sound/image cues and escalating reveals even at long length.",
       "The ending preserves both relationship uncertainty and supernatural mystery through specific CTA questions."
     ],
+    "above_avg_reference": {
+      "promo": "TWAR-Hasim-LP2",
+      "score_band": "8.5+ / P0 Above Avg",
+      "observed_strengths": [
+        "Opens with an unusual, visceral mystery: a red-haired girl is drinking Atharv's blood, immediately creating an unanswered identity and danger question.",
+        "Moves from that cold open into the same-day wedding conflict, so Arya's rejection becomes a mystery rather than a routine humiliation.",
+        "Explains the zero-level body and Arya's frozen energy through character motivation, not only exposition; her distance is connected to protecting Atharv.",
+        "Expands the world with the Sky Poison Pearl, Atharv Dev's 1300-year identity, Jasmine, Flame Dragon and multiple factions, giving the promo a large mythology footprint.",
+        "Uses parallel mysteries—who is the red-haired girl, why did Arya marry him, what happened to Atharv Dev, and what is the pearl's secret—to sustain curiosity across a long promo."
+      ],
+      "observed_patterns": {
+        "Hook": "High-impact body-horror/romantic mystery with a concrete action and direct dialogue; the listener wants the next sentence because the girl's identity and motive are impossible to ignore.",
+        "Context & World Clarity": "Present relationship, zero-level weakness, Arya's sect and the past-life warrior mythology are layered progressively. The number of names and factions increases cognitive load, but the central Atharv identity remains the spine.",
+        "Sequence & Plot Movement": "Cold open mystery -> wedding-night restriction -> Arya's hidden reason -> past-life/pearl mythology -> larger enemy and reincarnation questions. Most exposition is attached to a new question or reveal.",
+        "Scene Design": "The blood-drinking image, wedding-night refusal and powerful-warrior backstory are distinct scenes. The promo's strongest design comes from contrasting intimate bodily danger with epic battlefield mythology.",
+        "Pacing & Transitions": "The opening is fast and visual, then the wedding scene slows for emotional context before the mythology expands. Mystery questions bridge the shifts, keeping the long format moving.",
+        "Ending, Callback & CTA": "The strongest payoff is the unresolved identity/power contradiction rather than a resolved romance. Score higher when the ending converts the red-haired girl, Arya, pearl and Atharv's return into specific questions and includes Pocket FM CTA.",
+        "Narration/Dialogue Balance": "Short, emotionally motivated dialogue anchors the mystery while narration handles world scale and backstory. Avoid copying the number of characters; copy the function of each line—reveal, refusal, threat or question.",
+        "Mental Impact & Recall Value": "Primary recall images are a beautiful red-haired girl drinking blood, a powerless groom rejected on his wedding night, and the hidden 1300-year-old warrior linked to the Sky Poison Pearl.",
+        "Follow successful promos pattern": "This is above-average because it shares the Warrior topper's identity contrast, relationship conflict and past-life stakes, but its many mythology threads and delayed full payoff make it less controlled than the cleanest Topper anchors."
+      },
+      "why_not_topper": [
+        "The large cast, many factions and several mythology objects can dilute the main Atharv-Arya emotional line.",
+        "The opening red-haired-girl mystery is extremely strong but must return with a concrete payoff; otherwise it becomes a disconnected hook.",
+        "The long explanatory middle needs tighter compression and more visible cause-and-effect to match the strongest Topper references."
+      ],
+      "calibration": "Use TWAR-Hasim-LP2 as the P0 Above Avg anchor. Reward an original, visual hook plus source-grounded relationship and reincarnation stakes; deduct when multiple mysteries are introduced without payoff, the middle becomes a character/faction list, or the CTA is generic."
+    },
     "calibration": "Use these five as P0 Topper anchors for The Warrior. Reward causal identity contrast, pearl-driven stakes, dramatized war/reincarnation, Arya-Atharv emotional conflict, clean flashback transitions and a 3–4 question cliffhanger. Do not deduct merely because a promo is long; deduct only for repetition, unsupported exposition or scenes that do not create a new consequence."
   }
 }
