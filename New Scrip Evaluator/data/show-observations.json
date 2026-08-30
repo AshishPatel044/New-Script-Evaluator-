@@ -34,6 +34,33 @@
       "why_avg_not_topper": ["The opening future vision is powerful but creates a timeline jump that is less immediately grounded than the strongest Topper hooks.", "The promo spends a large amount of time retelling setup and repeats betrayal/weakness beats.", "The scene sequence is more summary-heavy and contains fewer fully dramatized present-tense set pieces.", "The ending has a strong mystery but the CTA is less character-specific and less emotionally explosive than the Topper examples."],
       "calibration": "Use this as the P1 Avg anchor: strong source-aligned premise and curiosity, but deduct for timeline clarity, exposition density, repeated setup and weaker scene-to-scene dramatization."
     },
+    "rejected_references": {
+      "promos": ["KOD-Prakash-LP1", "KOD-Hasim-LP1", "KOD-Anushree-LP1"],
+      "score_band": "below 6 / P2 Rejected",
+      "observed_patterns": {
+        "Hook": "All three use the familiar Misha-Arjun engagement humiliation setup, but the opening is mostly a long exchange or generic confrontation rather than a sharply compressed, impossible-to-ignore question. The hook does not create enough new mystery before the scene becomes repetitive.",
+        "Context & World Clarity": "Basic context is present, but it is delivered through heavy backstory and repeated labels such as weak body, coma, poverty, betrayal and family insult. The Dragon King premise arrives late or as an explanatory paragraph, so the listener has to wait too long for the show's central fantasy promise.",
+        "Sequence & Plot Movement": "The promos repeatedly circle the same beats—Misha rejects Arjun, Kabir humiliates him, Shalini suffers, then Arjun's past is explained. Movement is often narration about what happened instead of a clean chain of new decisions and consequences leading to the Dragon King awakening.",
+        "Scene Design": "There are usable ingredients (public insult, cheque, slap/kick, rescue or gunshot, dragon realm), but several are described as summary. Character choices do not consistently trigger a visible next consequence, and the emotional scene is allowed to continue after its dramatic point has landed.",
+        "Pacing & Transitions": "The first section is dialogue-heavy and repetitive, while the supernatural escalation is delayed. Transitions jump from engagement humiliation to long life-history/ancient-war exposition; the result is a flat or stop-start rhythm rather than a steady build followed by rapid escalation.",
+        "Ending, Callback & CTA": "The rejection set either resolves the immediate emotional beat by simply sending Arjun away or spends the ending on broad mystery narration. The CTA is not consistently built from three or four sharp, character-specific unresolved questions; the Dragon King identity, power cost, revenge and Shivanya danger are not all converted into a strong final cliffhanger.",
+        "Narration/Dialogue Balance": "Prakash and Anushree lean on long explanatory narration and repeated emotional explanation; Hasim has stronger dialogue moments but still carries substantial recap. Dialogue frequently repeats information already established instead of creating a new threat, reveal or decision.",
+        "Mental Impact & Recall Value": "The humiliation is understandable, but the dominant memory becomes a generic rich-family rejection scene. The golden Dragon King transformation and Arjun's meaningful identity reversal are either delayed, under-dramatized or not made the final emotional image, so recall is weaker than the Topper anchors.",
+        "Follow successful promos pattern": "They borrow the surface premise—betrayal, weak Arjun, mother, Shivanya and golden dragon—but miss the Topper pattern of compressed emotional setup, motivated rescue/sacrifice, visual supernatural reveal, immediate power proof and a four-question cliffhanger CTA. Surface similarity alone must not earn a high pattern score."
+      },
+      "promo_specific_notes": {
+        "KOD-Prakash-LP1": "Strong raw conflict and a potentially cinematic ancient-war sequence, but it is overlong, repeats insults and weakness, and delays the present-day supernatural payoff. The dragon conflict is explained after an already extended humiliation scene instead of being tightly intercut with escalating consequences.",
+        "KOD-Hasim-LP1": "Has a better rescue trigger and a clear golden-dragon visual, but the opening repeats the same public humiliation and revenge setup, then moves into recap-heavy exposition. The first gunshot/rescue is the strongest movement and should arrive sooner and carry more of the ending.",
+        "KOD-Anushree-LP1": "The engagement rejection is immediately clear, but Arjun's fear/sadness reaction and explanatory narration make the opening passive. The car collision, attempted shooting and hospital material dilute the central sacrifice beat; the hook-to-dragon escalation and final CTA lack a concentrated payoff."
+      },
+      "contrast_with_topper": [
+        "Topper references make Arjun's humiliation serve a specific moral choice or sacrifice; rejected references often stop at humiliation and recap.",
+        "Topper references reach a visually distinct Dragon King reveal and prove a power before the ending; rejected references delay, summarize or dilute that reveal.",
+        "Topper references finish on 3–4 specific unresolved questions tied to identity, danger, revenge and cost; rejected references do not consistently convert the premise into those questions.",
+        "A long promo is not penalized for length itself, but every added beat must create a new pressure, reveal, decision or consequence. Repetition and exposition are the rejection signals."
+      ],
+      "calibration": "Use these three as P2 anchors. A new King of Dragon promo matching this profile should remain below 6 even when it contains the show's names and surface ingredients. Give high scores only when the content earns scene-by-scene escalation, source-grounded specificity, a meaningful sacrifice, a memorable Dragon King payoff and a precise CTA."
+    },
     "calibration": "A new King of Dragon promo should score near P0 only when it preserves this emotional-to-supernatural progression and has comparable scene specificity, escalation, memorability and show truth. Do not award P0 for generic cultivation/power language alone."
   }
 }
