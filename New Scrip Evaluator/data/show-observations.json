@@ -275,5 +275,29 @@
       "calibration": "Use these three as MMP P2 anchors. Keep a new promo below 6 when it has generic/distracting hook, recap-heavy DNA or medical exposition, weak visible competence, repeated accusation, diffuse plot threads or vague CTA—even if it mentions Anamika, Devansh, DNA and medical genius."
     },
     "calibration": "Use these two as P0 Topper anchors for My Mysterious Princess. Reward a specific crisis, calm competence, visible status reversal, source-grounded identity mystery and sharp CTA. Do not reward generic rich-family insults alone; the promo must prove Anamika's exceptional ability through action."
+  },
+  "Billionaire Hidden Wife": {
+    "tier": "P0 Topper",
+    "references": ["BRHW-Akshay-LP4", "BRHW-Akshay-LP1"],
+    "source_grounded_patterns": {
+      "Hook": "Open with the feared mafia billionaire's apparent death and terrifying return, or with Anika being thrown at Kartik's feet and challenged to spend a night with him. The hook combines danger, sexual/romantic tension and an immediate unanswered reason for Kartik's obsession.",
+      "Context & World Clarity": "Establish Anika as the rejected daughter treated as cursed, Kartik/KS as the ruthless billionaire enemy, the Sharma-Shaurya feud, the two-hundred-crore marriage bargain and the family plan to sacrifice Anika instead of Baani.",
+      "Sequence & Plot Movement": "Use a strong escalation: KS returns/searches for Anika -> Anika defends her dignity against a predator -> she is rejected at her own home -> family sells her into a dangerous marriage -> Kartik's motive and past encounter remain mysterious. Each beat increases danger and emotional vulnerability.",
+      "Scene Design": "Topper scenes use public humiliation with physical consequence, then a sharp character response: slap the harasser, face the guard, hear the father call her cursed, and reveal the family’s calculated marriage substitution. Props, entrances and status contrasts make the scenes visual.",
+      "Pacing & Transitions": "The mafia cold open creates urgency, then the story moves through airport/home/family negotiation without losing the central question of why KS wants Anika. The marriage bargain and the past encounter act as bridges between action and emotional backstory.",
+      "Ending, Callback & CTA": "End with the marriage/night, Kartik's revenge, Anika's danger or KS's hidden motive unresolved. Ask specific questions about why Kartik chose Anika, whether the family will sacrifice her, what happened during their first night and whether she can survive his revenge, followed by Pocket FM CTA.",
+      "Narration/Dialogue Balance": "Narration gives Kartik's reputation, Anika's childhood rejection and the financial bargain; dialogue is short and weaponized—threat, insult, dignity statement, bargain and mystery question. Anika's responses preserve agency even when the world humiliates her.",
+      "Mental Impact & Recall Value": "The strongest recall anchors are KS's feared return, Anika slapping a predator, the daughter locked outside her own home, the two-hundred-crore marriage deal and the masked billionaire searching for her.",
+      "Follow successful promos pattern": "The Topper pattern is not only billionaire/poor-girl melodrama: it is danger cold open + dignity under assault + family betrayal for money + powerful male lead's unexplained fixation + a marriage/revenge cliffhanger. Surface rich-family conflict alone is insufficient.",
+      "pattern_signature": "Feared KS return/obsession + Anika's dignity under public threat + cursed/rejected daughter + family sells her for 200 crore + enemy billionaire marriage + hidden first-night motive + 3–4 specific danger/romance questions."
+    },
+    "why_topper": [
+      "The hook gives both an external danger engine and a personal romantic mystery.",
+      "Anika's suffering is concrete and repeated, but she retains agency through direct, memorable responses.",
+      "The money-driven marriage bargain clearly connects family cruelty to Kartik's revenge and attraction.",
+      "The promos create strong status reversals through entrances, guards, threats and the masked KS identity.",
+      "The final mystery naturally extends into marriage, revenge, identity and survival questions."
+    ],
+    "calibration": "Use these as P0 Topper anchors for Billionaire Hidden Wife. Reward a danger-led hook, source-specific family bargain, Anika's active dignity, Kartik's unexplained fixation and a concrete marriage/revenge cliffhanger. Do not award Topper for generic billionaire threats without the 200-crore betrayal and hidden-wife mystery."
   }
 }
