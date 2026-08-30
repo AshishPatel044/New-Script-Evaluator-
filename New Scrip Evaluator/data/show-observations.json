@@ -20,6 +20,13 @@
       "The promo contains multiple visual set pieces: public insult, bullet/rescue, cloud realm, golden dragon and first power demonstration.",
       "The final questions extend both the romance/family conflict and the fantasy mystery instead of resolving either one."
     ],
+    "above_avg_reference": {
+      "promo": "KOD-Shailendra-LP10-Hasim-V1",
+      "score_band": "8.5+ / P0 Above Avg",
+      "observed_strengths": ["Starts with a high-status public humiliation and immediately flips the status expectation through Shivanya calling Arjun darling.", "Uses a mystery-led structure: present mall reveal -> six-year sacrifice and betrayal -> Dragon King awakening -> return to the present for a Queen/King payoff.", "Connects romance, revenge, mother-son pain and supernatural identity instead of presenting power as an isolated spectacle.", "Ends with four specific questions covering marriage, Shivanya's danger, Arjun's protection and Dragon King eligibility."],
+      "why_not_topper": ["The long origin section slows the middle compared with the fastest Topper references.", "The promo is more dependent on a later reveal and has less early scene variety than the strongest references.", "Its callback is thematic rather than a clearly recognisable Episode 1 opening callback."],
+      "calibration": "Use this as the P0 Above Avg anchor: high emotional and pattern fit, but deduct when the middle drags or the callback is thematic rather than fully integrated."
+    },
     "calibration": "A new King of Dragon promo should score near P0 only when it preserves this emotional-to-supernatural progression and has comparable scene specificity, escalation, memorability and show truth. Do not award P0 for generic cultivation/power language alone."
   }
 }
