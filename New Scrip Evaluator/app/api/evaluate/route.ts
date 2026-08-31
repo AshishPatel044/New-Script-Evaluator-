@@ -8,7 +8,7 @@ import {loadShowScoreReferences} from '../../../data/reference-loader';
 import {knownReferenceScore} from '../../../data/reference-loader';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
-export const maxDuration=60;
+export const maxDuration=300;
 const shows=['Beggar Husband','Billionaire Hidden Wife','Brahmand Ka Rakshak','Brahmyodha: The Destroyer','Divine Flame Burst','Divine Power','Ek Stranger Se Pyar','Empire of Hidden King','Fated To Be Yours','His Secret Fortune','King of Dragon','Malang','Married To a Hard Hearted','My Mysterious Princess','Primordial God','Purple Thunder Sovereign','Rudra: Rise of the Supreme Yodha','Ruthless','Shiva: Ek Pretyodha','The Beast Guru','The Legend Gods','The Warrior'];
 const rubric=`Return JSON only. Be deterministic: temperature is 0, use only supplied documents, do not guess or invent evidence, and score the same unchanged promo the same way.
 Evaluate TWO INDEPENDENT score columns: ruleScores (only the authoritative Rule set learning document) and patternScores (only observed patterns and labelled examples in Pattern Learning plus successful/rejected benchmarks). Score exactly these nine parameters from 1-10: Hook, Context & World Clarity, Sequence & Plot Movement, Scene Design, Pacing & Transitions, Ending, Callback & CTA, Narration/Dialogue Balance, Mental Impact & Recall Value, Follow successful promos pattern.
