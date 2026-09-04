@@ -14,7 +14,7 @@ export async function loadShowScoreReferences(show:string,codes:string[]){
   for(const folder of folders){
     const names=await fs.readdir(folder).catch(()=>[]);
     for(const name of names){
-      if(name.endsWith('.docx')&&matchCodes.some(code=>name.toLowerCase().startsWith(code.toLowerCase()))) files.push(path.join(folder,name));
+      if(name.toLowerCase().endsWith('.docx')&&matchCodes.some(code=>name.toLowerCase().startsWith(code.toLowerCase()))) files.push(path.join(folder,name));
     }
   }
   const unique=[...new Set(files)].slice(0,30);
