@@ -8,13 +8,16 @@ PocketFM Promo Script Evaluator in this folder.
 
 - Repository: `https://github.com/AshishPatel044/New-Script-Evaluator-`
 - Branch: `main`
-- Latest pushed commit: `47df3c0` — Harden evaluation report rendering
+- Latest pushed commit: `9af4b99` — Add five fantasy shows to evaluator
+- Previous task commit: `9af8f46` — Fix independent scoring, story loading, and DOCX uploads
 
 ## Vercel
 
 - Project: `ashishpatel-4895s-projects/new-script-evaluator-uo`
-- Production URL: `https://new-script-evaluator-uo-ten.vercel.app`
+- Production URL alias: `https://new-script-evaluator-uo-ashishpatel-4895s-projects.vercel.app`
 - Vercel project is linked locally in `.vercel/`.
+- Latest deployment URL: `https://new-script-evaluator-7baeo4pg1-ashishpatel-4895s-projects.vercel.app`
+- Latest deployment was still showing `Building` during the last status check; verify status before assuming it is Ready.
 
 ## Current implementation
 
@@ -27,6 +30,20 @@ PocketFM Promo Script Evaluator in this folder.
 - Report attempts to show rule-set and pattern-learning scores separately.
 - Runtime and output-token limits were added to reduce timeouts.
 - Client error boundary exists in `app/error.tsx`.
+- DOCX/TXT uploads use `app/api/extract/route.ts` and server-side `mammoth` extraction.
+- Compare mode supports upload for both Promo A and Promo B and requires both scripts.
+- Rule-set and Pattern Learning are explicitly instructed to score independently; exact verified benchmark matches may still have equal scores when both agree.
+- Story source matching now matches the selected show filename and passes show-specific benchmark aliases.
+
+## Added fantasy shows (2026-09-04)
+
+- `Mrityulok Ka Devta`
+- `Kalyug Ka Amar Doctor`
+- `Garud Warrior`
+- `Super Yoddha`
+- `Mahagatha`
+
+Their source DOCX files are in `Show Content/` and were committed in `9af4b99`.
 
 ## Current Vercel configuration concept
 
@@ -60,7 +77,9 @@ Most recent understanding: the free OpenRouter model/provider can hit quota, rat
 - `7256cf3` — Limit model output tokens for OpenRouter
 - `a1c4338` — Reduce evaluation context for reliable JSON responses
 - `47df3c0` — Harden evaluation report rendering
+- `9af8f46` — Fix independent scoring, story loading, and DOCX uploads
+- `9af4b99` — Add five fantasy shows to evaluator
 
 ## Resume instruction
 
-Read this file and `PROJECT_HANDOFF.md` first. Inspect `git status`, never expose `.env.local`, then check current Vercel logs before changing code. Do not change code merely for a provider quota/rate-limit error; first distinguish provider billing/quota from an application bug.
+Read this file and `PROJECT_HANDOFF.md` first. Inspect `git status`, never expose `.env.local`, then check current Vercel deployment status/logs before changing code. The GitHub remote is `origin` on `main`; commits require access to the parent repository `.git` directory. Do not add unrelated untracked workspace folders/documents unless explicitly requested. Do not change code merely for a provider quota/rate-limit error; first distinguish provider billing/quota from an application bug.
