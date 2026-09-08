@@ -3,23 +3,28 @@ import path from 'node:path';
 import mammoth from 'mammoth';
 
 export async function loadShowScoreReferences(show:string,codes:string[]){
-  const inferred:Record<string,string[]>={'King of Dragon':['kod'],'The Warrior':['twar'],'My Mysterious Princess':['mmp','mmps'],'Billionaire Hidden Wife':['brhw','bhw','bhy'],'The Beast Guru':['tbg'],'Primordial God':['pg']};
-  codes=codes.length?codes:(inferred[show]||[]);
+  const inferred:Record<string,string[]>={'King of Dragon':['kod'],'The Warrior':['twar'],'My Mysterious Princess':['mmp','mmps'],'Billionaire Hidden Wife':['brhw','bhw'],'Brahmyodha: The Destroyer':['bhy','by'],'The Beast Guru':['tbg'],'Primordial God':['pg']};
+  codes=show==='Brahmyodha: The Destroyer'?['bhy','by']:(codes.length?codes:(inferred[show]||[]));
   const root=process.cwd();
   const entries=await fs.readdir(root,{withFileTypes:true}).catch(()=>[]);
   const folders=entries.filter(e=>e.isDirectory()&&e.name.toLowerCase().includes('score')).map(e=>path.join(root,e.name));
   if(!codes.length) folders.push(path.join(root,'Winning Promo Scripts'));
+  const userCohortFolder=show==='King of Dragon'?'King Of Dragon':show==='Brahmyodha: The Destroyer'?'Brahmyodha The Destroyer':'';
+  if(userCohortFolder) folders.push(path.join(root,userCohortFolder));
   const matchCodes=codes.length?codes:[''];
   const files:string[]=[];
   for(const folder of folders){
     const names=await fs.readdir(folder).catch(()=>[]);
     for(const name of names){
-      if(name.toLowerCase().endsWith('.docx')&&matchCodes.some(code=>name.toLowerCase().startsWith(code.toLowerCase()))) files.push(path.join(folder,name));
+      const isUserCohort=path.basename(folder)===userCohortFolder;
+      if(name.toLowerCase().endsWith('.docx')&&(isUserCohort||matchCodes.some(code=>name.toLowerCase().startsWith(code.toLowerCase())))) files.push(path.join(folder,name));
     }
   }
   const unique=[...new Set(files)].slice(0,30);
   const text=await Promise.all(unique.map(async file=>`REFERENCE FILE: ${path.basename(file)}\n${(await mammoth.extractRawText({buffer:await fs.readFile(file)})).value}`));
-  return text.join('\n--- SHOW SCORE REFERENCE ---\n');
+  const training=JSON.parse(await fs.readFile(path.join(root,'data','pattern-training.json'),'utf8').catch(()=> '{}'))?.shows?.[show];
+  const trainingNote=training?`\n--- PATTERN TRAINING MANIFEST (patternScores only) ---\n${JSON.stringify(training)}`:'';
+  return text.join('\n--- SHOW SCORE REFERENCE ---\n')+trainingNote;
 }
 
 export async function knownReferenceScore(show:string,codes:string[],script:string){

@@ -18,7 +18,8 @@ Apply hard-failure deductions from the rule document. Length is agnostic: judge 
 For every parameter below 7 in either score column return exactly five materially different suggestions under suggestions[param]. Each suggestion must have approach, rewrite, reason. Return fidelity percentage, source evidence, contradictions, structure, strengths, ranked problems, strongest hook/scene/character moment/ending element, mental impact assessment, publish readiness, patternCategoryMatch, and comparison when two promos are supplied. Never create evidence not present in the source.`;
 async function readDoc(file:string){return (await mammoth.extractRawText({buffer:await fs.readFile(file)})).value}
 const params=['Hook','Context & World Clarity','Sequence & Plot Movement','Scene Design','Pacing & Transitions','Ending, Callback & CTA','Narration/Dialogue Balance','Mental Impact & Recall Value','Follow successful promos pattern'];
-const EVALUATOR_VERSION='v5-distinct-promo-scoring';
+const EVALUATOR_VERSION='v6-pattern-cohorts-brahmyodha-kod';
+
 function numberValue(v:unknown){const n=typeof v==='number'?v:Number(String(v??'').replace(/[^0-9.\-]/g,''));return Number.isFinite(n)?Math.max(1,Math.min(10,n)):0}
 function normalizeScores(raw:unknown){const obj=(raw&&typeof raw==='object'?raw:{}) as Record<string,unknown>;const list=Array.isArray(raw)?raw:[];const out:Record<string,number>={};for(const p of params){const canon=p.toLowerCase().replace(/[^a-z0-9]/g,'');const key=Object.keys(obj).find(k=>k.toLowerCase().replace(/[^a-z0-9]/g,'')===canon);const item=list.find((x:any)=>String(x?.parameter||x?.name||x?.criterion||'').toLowerCase().replace(/[^a-z0-9]/g,'')===canon);out[p]=numberValue(key?obj[key]:(item?.score??item?.value??0))}return out}
 function tier(score:number){return score>9.5?'P0 Topper':score>8.5?'P0 Above Avg':score>7.5?'P1 Avg':'P2 Rejected'}

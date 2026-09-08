@@ -4,5 +4,7 @@
   "My Mysterious Princess": {"P0 Topper": ["MMP-Shailendra-LP1-V1", "MMP-Shailendra-LP2"], "P0 Above Avg": ["MMP-Shailendra-LP1"], "P1 Avg": ["MMP-Pranjali-LP8"], "P2 Rejected": ["MMP-Pranjali-LP3", "MMP-Mona-LP2-Anupma-V1", "MMP-Prakash-LP2"]},
   "Billionaire Hidden Wife": {"P0 Topper": ["BRHW-Akshay-LP4", "BRHW-Akshay-LP1"], "P0 Above Avg": ["BRHW-Mirant-LP1-Akshay-V1"], "P2 Rejected": ["BRHW-Mirant-LP2"]},
   "The Beast Guru": {"P0 Topper": ["TBG-Akshay-LP3", "TBG-Akshay-LP3-V2"], "P0 Above Avg": ["TBG-Shailendra-LP4"], "P2 Rejected": ["TBG-Pranjali-LP1", "TBG-Shailendra-LP1"]},
-  "Primordial God": {"P0 Topper": ["PG-Hasim-LP1-V1", "PG-Shailendra-LP3"], "P0 Above Avg": ["PG-Pranjali-LP3"], "P2 Rejected": ["PG-Chaitanya-LP4", "PG-Ganesh-LP1"]}
+  "Primordial God": {"P0 Topper": ["PG-Hasim-LP1-V1", "PG-Shailendra-LP3"], "P0 Above Avg": ["PG-Pranjali-LP3"], "P2 Rejected": ["PG-Chaitanya-LP4", "PG-Ganesh-LP1"]},
+  "Brahmyodha: The Destroyer": {"P0 Topper": ["EXT_BY0829_INDRA KI SABHA_EXTENSION EPISODIC", "Base_BY0659_Koun Hai Vo_Pallavi Joshi_Asif", "Base_BY0654_Nagarjun Ki Nafrat_Sahil_Asif"], "P1 Avg": ["BY_fir se janam_Aisha_Tandrima", "Vidyut ka janam_Divya_- Gen AI script", "REWORK_BY0797_CHANA CHOR GARAM_AASHIS_ASIF_SC20260608-3418"], "P2 Rejected": ["BASE_BY0796_Ghamandi Aishwarya", "EXT_BY0826_SON OF FIRE_AI_AASHISH_ASIF", "Base_BHY_Thama Ki Shart", "Base-BHY_Thaama Ki Shart"]},
+  "King of Dragon — new cohort": {"P0 Topper": ["Bhikhari Pati (Contract Shaadi)", "Base_KD0153_Boyfriend Ka Badla", "EXT_KD0105_Diljala_Crunch_Q1"], "P1 Avg": ["Arjun Ki Shaadi V2", "BASE_KD0216_GUARANTEE ARJUN KI"], "P2 Rejected": ["BASE_KOD_Dragon King Ka Akhiri Waris", "GUSSAIL_GHAR_JAMAI", "Base_KD0202_Pyar_ka_Khel", "Base_KD0193_Chaalbaaz Boyfriend"]}
 }

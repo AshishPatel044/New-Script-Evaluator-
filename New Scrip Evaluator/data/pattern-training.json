@@ -1,0 +1,48 @@
+{
+  "version": "2026-09-08-brahmyodha-king-of-dragon-cohort-1",
+  "instruction": "Pattern-learning examples only. Their labels influence patternScores, never ruleScores. Compare with same-show examples first.",
+  "shows": {
+    "Brahmyodha: The Destroyer": {
+      "scoreBands": {
+        "7.6 - 10.0": ["EXT_BY0829_INDRA KI SABHA_EXTENSION EPISODIC .docx", "Base_BY0659_Koun Hai Vo_Pallavi Joshi_Asif .docx", "Base_BY0654_Nagarjun Ki Nafrat_Sahil_Asif.docx"],
+        "7.0 - 7.5": ["'BY_fir se janam_Aisha_Tandrima'.docx", "Vidyut ka janam_Divya_- Gen AI script.docx", "REWORK_BY0797_CHANA CHOR GARAM_AASHIS_ASIF_SC20260608-3418.docx"],
+        "below 6.9": ["BASE_BY0796_Ghamandi Aishwarya_Divya_ASIF_SC20260608-4541_Nesara_24_29.docx", "EXT_BY0826_SON OF FIRE_AI_AASHISH_ASIF.docx", "Base_BHY_Thama Ki Shart_Neelofar_Tandrima_Manual Script_30-35 Mint Promo_SC20260708-17111_Nesara_39_19.docx", "Base-BHY_Thaama Ki Shart_Neelofar_Tandrima_AI Etention _30 Mint Promo SC20260703-852_Nesara_37_43.docx"]
+      },
+      "topper": "Open inside a live Vidyut-centered crisis with direct dialogue or vivid action. Establish the human problem, then escalate through a small chain of visible decisions, power/identity clues and consequences. Finish on a concrete threat or reveal involving Vidyut, Acharya Thama, Eshwarya, his parents or the Brahmyodha transformation, followed by specific questions and Pocket FM CTA.",
+      "average": "Usable emotional or supernatural premise with a recognizable cliffhanger, but the middle is more explanatory, longer, or less causally connected than toppers. Deduct for unclear jumps between family drama and mythology, repeated setup, and a weaker final escalation.",
+      "belowAverage": "Often begins with familiar poor-boy/royal humiliation or a broad power claim, then repeats insults, poverty, backstory and episode summaries. The Brahmyodha promise arrives late or is explained rather than dramatized; too many characters and locations dilute the spine; ending questions are broad or disconnected from the strongest final scene.",
+      "parameterSignals": {
+        "Hook": "Specific named crisis or impossible supernatural situation beats generic fantasy exposition.",
+        "Context & World Clarity": "Vidyut, the relationship/authority, immediate danger and Brahmyodha promise should become clear before mythology expands.",
+        "Sequence & Plot Movement": "Challenge or threat -> Vidyut decision -> power/identity clue -> new danger; each beat changes the situation.",
+        "Scene Design": "Compact action/reaction/consequence scenes: challenge, arrest, power proof, mysterious arrival or attack.",
+        "Pacing & Transitions": "Bridge scene changes with a new threat, reveal or question; do not pause for unrelated history.",
+        "Ending, Callback & CTA": "Use a concrete final danger or identity reveal and ask targeted questions about Vidyut, family, Thama and becoming Brahmyodha.",
+        "Narration/Dialogue Balance": "Narration gives concise bridges; dialogue performs challenge, warning, confession, decision or reveal.",
+        "Mental Impact & Recall Value": "Leave Vidyut's loss/outsider status, a vivid supernatural image and the family/revenge promise in memory.",
+        "Follow successful promos pattern": "Emotional Vidyut problem remains the spine while the supernatural promise visibly escalates; vocabulary alone is not pattern fit."
+      }
+    },
+    "King of Dragon": {
+      "scoreBands": {
+        "7.6 - 10.0": ["Bhikhari Pati (Contract Shaadi) Script + PS_Ankit_Tandrima (1).docx", "Base_KD0153_Boyfriend Ka Badla (In-app Ext)_Sushmita_Asif (1).docx", "EXT_KD0105_Diljala_Crunch_Q1_Sushmita_Asif  (1).docx"],
+        "7.0 - 7.5": ["Arjun Ki Shaadi V2_Script + PS_Ankit Pal_Tandrima.docx", "BASE_KD0216_GUARANTEE ARJUN KI _AASHISH_ASIF_SC20260711-28337.docx"],
+        "below 6.9": ["BASE_KOD_Dragon King Ka Akhiri Waris_Sonali_Tandrima_SC20260515-33_Nesara_Yashveer_19_23 (2).docx", "GUSSAIL_GHAR_JAMAI-1780486389848 (1).docx", "Base_KD0202_Pyar_ka_Khel_AI_Rahul_Pandey_Asif__2_-1783062396446 (2).docx", "Base_KD0193_Chaalbaaz Boyfriend_AI_Sushmita_Asif_SC20260626-13915_Nesara_35_41 (1).docx"]
+      },
+      "topper": "Start with a gossip-worthy contract-marriage proposition, betrayal/revenge reversal, or striking Dragon King mystery. Establish Arjun's apparent poverty and Shivanya's relationship, then move through emotional reversal -> costly choice/rescue -> hidden-power clue -> visible status proof -> new threat. End on specific questions about Arjun's identity/power, Shivanya, the Dragon King's purpose and the next danger.",
+      "average": "Clear Arjun/Shivanya premise and some strong curiosity, but setup is over-invested, timeline less clear, or the strongest Dragon King proof arrives late. Ending may work while the middle remains summary-heavy.",
+      "belowAverage": "Often spends too long on repeated in-law/fiancée insults, poverty labels, character lists or broad Dragon King mythology. A usable scene is buried in exposition, too many names are introduced, and generic questions follow a resolved or diffused conflict.",
+      "parameterSignals": {
+        "Hook": "Concrete contract, betrayal, revenge or Dragon King mystery beats generic poor-husband setup.",
+        "Context & World Clarity": "Arjun, Shivanya, the relationship pressure and hidden-power promise should be clear through active scene.",
+        "Sequence & Plot Movement": "Emotional reversal -> protection/sacrifice -> Dragon King clue -> visible proof -> external threat.",
+        "Scene Design": "Public insult, contract/marriage negotiation, rescue/sacrifice, dragon or power reveal and mask/faction interruption.",
+        "Pacing & Transitions": "Let relationship pain matter, then accelerate; episode references cannot replace causal bridges.",
+        "Ending, Callback & CTA": "Finish on identity, kidnapping, mask-man or Dragon King motive with targeted questions and Pocket FM CTA.",
+        "Narration/Dialogue Balance": "Short dialogue handles insult, curiosity, promise, shock and reveal; narration compresses backstory.",
+        "Mental Impact & Recall Value": "Poor/insulted Arjun versus hidden Dragon Master, with Shivanya as emotional anchor and one vivid final image.",
+        "Follow successful promos pattern": "Personal marriage/betrayal engine and Dragon King reversal must be causally connected; names and mythology alone do not qualify."
+      }
+    }
+  }
+}
