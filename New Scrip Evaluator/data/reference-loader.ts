@@ -27,7 +27,9 @@ export async function loadShowScoreReferences(show:string,codes:string[]){
   return text.join('\n--- SHOW SCORE REFERENCE ---\n')+trainingNote;
 }
 
-export async function knownReferenceScore(show:string,codes:string[],script:string){
+export async function knownReferenceScore(show:string,codes:string[],script:string):Promise<{score:number;file:string}|null>{
+  // Kept for backwards compatibility with the route; scoring is always model-driven now.
+  return null;
   const scoreBands:Record<string,Record<string,number>>={
     'King of Dragon':{'KOD-Hasim-LP4-V2':9.6,'KODGN-Rituraj-LP1-Hasim-V1':9.6,'KODGN-Hasim-LP1-30 Mins-V1':9.6,'KOD-Shailendra-LP10-Hasim-V1':8.8,'KODGN-Mirant-LP1':8.0,'KOD-Prakash-LP1':6.0,'KOD-Hasim-LP1':6.0,'KOD-Anushree-LP1':6.0},
     'The Warrior':{'TWAR-Akshay-LP1-30 Mins-V2':9.6,'TWAR-Hasim-LP1':9.6,'TWAR-Pranjali-LP7':9.6,'TWAR-Pranjali-LP7-Hasim-V1':9.6,'TWAR-Pranjali-LP8-Hasim-V1':9.6,'TWAR-Hasim-LP2':8.8,'TWAR-Pranjali-LP8':8.0,'War- Anushree-LP1':6.0,'TWAR-Chaitanya-LP1':6.0,'TWAR-Prakash-LP8':6.0},
@@ -46,7 +48,9 @@ export async function knownReferenceScore(show:string,codes:string[],script:stri
       const base=name.replace(/\.docx$/i,'').replace(/\s*\(\d+\)$/,'').trim();const expected=scoreBands[show]?.[base];
       if(expected===undefined||!codes.some(code=>name.toLowerCase().startsWith(code.toLowerCase()))) continue;
       const actual=canonical((await mammoth.extractRawText({buffer:await fs.readFile(path.join(process.cwd(),folderName,name))})).value);
-      if(actual===wanted)return {score:expected,file:name};
+      // Do not short-circuit evaluation with one shared calibration score.
+      // Rule-set and pattern-learning scores must always be independently assessed.
+      if(actual===wanted)continue;
       if(wanted.length>300){
         const wantedTokens=new Set(wanted.split(/\s+/).filter(Boolean));const actualTokens=new Set(actual.split(/\s+/).filter(Boolean));
         const overlap=[...wantedTokens].filter(token=>actualTokens.has(token)).length/Math.max(1,wantedTokens.size);
@@ -56,7 +60,7 @@ export async function knownReferenceScore(show:string,codes:string[],script:stri
         const wantedOpening=new Set(wanted.split(/\s+/).slice(0,24));
         const openingOverlap=actualOpening.filter(token=>wantedOpening.has(token)).length/Math.max(1,actualOpening.length);
         const distinctive=['सूर्यांश','हिमांशी','रक्षित','दिव्य','बीज'].filter(token=>wanted.includes(token)&&actual.includes(token)).length;
-        if(overlap>=0.62||openingMatch||openingOverlap>=0.65||(distinctive>=4&&overlap>=0.25))return {score:expected,file:name};
+        if(overlap>=0.62||openingMatch||openingOverlap>=0.65||(distinctive>=4&&overlap>=0.25))continue;
       }
     }
   }
