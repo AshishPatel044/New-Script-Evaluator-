@@ -1,0 +1,49 @@
+{
+  "metricDefinition": {
+    "cpi": "Cost per install in INR from Meta. Lower is better.",
+    "activation": "Percentage of installs that entered the app and listened to the selected show for at least 53 minutes. Higher is better."
+  },
+  "shows": {
+    "King of Dragon": {
+      "anchors": [
+        {"script":"KODGN-Mirant-LP1","tier":"Topper","score":9.5,"cpi":145.43,"activation":35.35},
+        {"script":"KODGN-Rituraj-LP1-Hasim-V1","tier":"Topper","score":9.5,"cpi":125.36,"activation":37.11},
+        {"script":"KODGN-Hasim-LP1-30 Mins-V1","tier":"Topper","score":9.5,"cpi":67.51,"activation":49.67},
+        {"script":"KOD-Shailendra-LP10-Hasim-V1","tier":"Above Avg","score":8.5,"cpi":153,"activation":40.51},
+        {"script":"KOD-Hasim-LP4-V2","tier":"Avg","score":7.5,"cpi":286.75,"activation":25.55},
+        {"script":"KOD-Prakash-LP1","tier":"Below Avg","score":6,"cpi":107,"activation":7.41},
+        {"script":"KOD-Hasim-LP1","tier":"Below Avg","score":6,"cpi":109.42,"activation":9.62}
+      ]
+    },
+    "The Warrior": {
+      "anchors": [
+        {"script":"TWAR-Akshay-LP1-30 Mins-V2","tier":"Topper","score":9.5,"cpi":117.21,"activation":32.61},
+        {"script":"TWAR-Hasim-LP1","tier":"Topper","score":9.5,"cpi":151.81,"activation":39.29},
+        {"script":"TWAR-Pranjali-LP7","tier":"Topper","score":9.5,"cpi":139.1,"activation":33.02},
+        {"script":"TWAR-Pranjali-LP7-Hasim-V1","tier":"Topper","score":9.5,"cpi":61.67,"activation":34.69},
+        {"script":"TWAR-Pranjali-LP8-Hasim-V1","tier":"Topper","score":9.5,"cpi":118,"activation":39.11},
+        {"script":"TWAR-Hasim-LP2","tier":"Above Avg","score":8.5,"cpi":64.5,"activation":18.6},
+        {"script":"TWAR-Pranjali-LP8","tier":"Avg","score":7.5,"cpi":162.09,"activation":31.91},
+        {"script":"TWAR-Chaitanya-LP1","tier":"Below Avg","score":6,"cpi":153.09,"activation":14.29}
+      ]
+    },
+    "The Beast Guru": {
+      "anchors": [
+        {"script":"TBG-Akshay-LP3","tier":"Topper","score":9.5,"cpi":141.43,"activation":30.95},
+        {"script":"TBG-Akshay-LP3-V2","tier":"Topper","score":9.5,"cpi":58.7,"activation":17.11},
+        {"script":"TBG-Shailendra-LP4","tier":"Above Avg","score":8.5,"cpi":54.02,"activation":21.29},
+        {"script":"TBG-Pranjali-LP1","tier":"Below Avg","score":6,"cpi":175.74,"activation":27.27},
+        {"script":"TBG-Shailendra-LP1","tier":"Below Avg","score":6,"cpi":156.08,"activation":23.81}
+      ]
+    },
+    "Primordial God": {
+      "anchors": [
+        {"script":"PG-Hasim-LP1-V1","tier":"Topper","score":9.5,"cpi":140.79,"activation":41.94},
+        {"script":"PG-Shailendra-LP3","tier":"Topper","score":9.5,"cpi":172.28,"activation":36.36},
+        {"script":"PG-Pranjali-LP3","tier":"Above Avg","score":8.5,"cpi":81.97,"activation":30.57},
+        {"script":"PG-Chaitanya-LP4","tier":"Below Avg","score":6,"cpi":215.38,"activation":15},
+        {"script":"PG-Ganesh-LP1","tier":"Below Avg","score":6,"cpi":46.59,"activation":1.11}
+      ]
+    }
+  }
+}
