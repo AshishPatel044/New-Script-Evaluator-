@@ -7,10 +7,5 @@ from openai import OpenAI.docx
 COntent.docx
 Copy of EHK-Akshay-LP1.docx
 Rejcted Promos /
-Winning Promo Scripts/*.docx
-!Winning Promo Scripts/KOD*.docx
-!Winning Promo Scripts/TWAR*.docx
-!Winning Promo Scripts/TBG*.docx
-!Winning Promo Scripts/PG*.docx
 .next
 node_modules
