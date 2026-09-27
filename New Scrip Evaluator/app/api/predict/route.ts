@@ -20,7 +20,7 @@ export async function POST(req:Request){
     const key=process.env.OPENROUTER_API_KEY?.trim()||process.env.OPENAI_API_KEY?.trim();
     if(!key)return NextResponse.json({error:'No API key found in server variables.'},{status:500});
     const training=await fs.readFile(path.join(process.cwd(),'data','performance-training.json'),'utf8');
-    const model=(process.env.OPENROUTER_MODEL||process.env.OPENAI_MODEL||'gpt-4o-mini').trim();
+    const model=process.env.OPENROUTER_API_KEY?.trim()?'openai/gpt-5':'gpt-5';
     const baseURL=(process.env.OPENROUTER_API_KEY?process.env.OPENROUTER_BASE_URL:process.env.OPENAI_BASE_URL)?.trim();
     const client=new OpenAI({apiKey:key,...(baseURL?{baseURL}:{})});
     const prompt=`Predict Meta performance for this PocketFM promo. CPI is cost per install in INR; lower is better. Activation % is the percentage of installs that enter the app and listen to this show for at least 53 minutes; higher is better. Use the historical anchors for the same show first. Use the supplied evaluator scores, source fidelity and actual script content. Do not claim certainty: creative performance also depends on media buying, audience, placement, bid, spend, fatigue and measurement windows. Return JSON only in this exact shape: {"estimatedCpi":number,"cpiRange":[number,number],"estimatedActivation":number,"activationRange":[number,number],"confidence":"High|Medium|Low","drivers":[string],"methodology":string}. Ranges must be realistic and contain the estimate.\n\nSHOW: ${b.show}\n\nHISTORICAL META ANCHORS:\n${training}\n\nEVALUATOR OUTPUT:\n${JSON.stringify(b.evaluation||{})}\n\nPROMO SCRIPT:\n${b.script}${b.second?`\n\nSECOND PROMO:\n${b.second}`:''}`;
