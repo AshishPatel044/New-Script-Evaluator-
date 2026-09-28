@@ -5,6 +5,7 @@ import path from 'node:path';
 
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
+export const maxDuration=300;
 
 function number(v:unknown,fallback=0){const n=Number(v);return Number.isFinite(n)?n:fallback}
 function list(v:unknown){return Array.isArray(v)?v.filter(x=>typeof x==='string').slice(0,8):[]}
@@ -22,7 +23,7 @@ export async function POST(req:Request){
     const training=await fs.readFile(path.join(process.cwd(),'data','performance-training.json'),'utf8');
     const model=process.env.OPENROUTER_API_KEY?.trim()?'openai/gpt-5':'gpt-5';
     const baseURL=(process.env.OPENROUTER_API_KEY?process.env.OPENROUTER_BASE_URL:process.env.OPENAI_BASE_URL)?.trim();
-    const client=new OpenAI({apiKey:key,...(baseURL?{baseURL}:{})});
+    const client=new OpenAI({apiKey:key,timeout:240000,...(baseURL?{baseURL}:{})});
     const prompt=`Predict Meta performance for this PocketFM promo. CPI is cost per install in INR; lower is better. Activation % is the percentage of installs that enter the app and listen to this show for at least 53 minutes; higher is better. Use the historical anchors for the same show first. Use the supplied evaluator scores, source fidelity and actual script content. Do not claim certainty: creative performance also depends on media buying, audience, placement, bid, spend, fatigue and measurement windows. Return JSON only in this exact shape: {"estimatedCpi":number,"cpiRange":[number,number],"estimatedActivation":number,"activationRange":[number,number],"confidence":"High|Medium|Low","drivers":[string],"methodology":string}. Ranges must be realistic and contain the estimate.\n\nSHOW: ${b.show}\n\nHISTORICAL META ANCHORS:\n${training}\n\nEVALUATOR OUTPUT:\n${JSON.stringify(b.evaluation||{})}\n\nPROMO SCRIPT:\n${b.script}${b.second?`\n\nSECOND PROMO:\n${b.second}`:''}`;
     const out=await client.chat.completions.create({model,messages:[{role:'system',content:'You are a conservative performance analyst. Historical KPI anchors are empirical observations, not deterministic rules.'},{role:'user',content:prompt}],temperature:0,seed:42,max_tokens:2500,response_format:{type:'json_object'}});
     const raw=JSON.parse(out.choices[0].message.content||'{}');
