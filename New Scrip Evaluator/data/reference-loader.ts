@@ -3,7 +3,7 @@ import path from 'node:path';
 import mammoth from 'mammoth';
 
 export async function loadShowScoreReferences(show:string,codes:string[]){
-  const inferred:Record<string,string[]>={'King of Dragon':['kod'],'The Warrior':['twar'],'My Mysterious Princess':['mmp','mmps'],'Billionaire Hidden Wife':['brhw','bhw'],'Brahmyodha: The Destroyer':['bhy','by'],'The Beast Guru':['tbg'],'Primordial God':['pg']};
+  const inferred:Record<string,string[]>={'King of Dragon':['kod'],'The Warrior':['twar'],'My Mysterious Princess':['mmp','mmps'],'Billionaire Hidden Wife':['brhw','bhw'],'Brahmyodha: The Destroyer':['bhy','by'],'The Beast Guru':['tbg'],'Primordial God':['pg'],'Garud Warrior':['ext_gw','gw'],'Purple Thunder Sovereign':['pts'],'The Legend Gods':['tlg']};
   codes=show==='Brahmyodha: The Destroyer'?['bhy','by']:(codes.length?codes:(inferred[show]||[]));
   const root=process.cwd();
   const entries=await fs.readdir(root,{withFileTypes:true}).catch(()=>[]);
@@ -11,6 +11,10 @@ export async function loadShowScoreReferences(show:string,codes:string[]){
   if(!codes.length) folders.push(path.join(root,'Winning Promo Scripts'));
   const userCohortFolder=show==='King of Dragon'?'King Of Dragon':show==='Brahmyodha: The Destroyer'?'Brahmyodha The Destroyer':'';
   if(userCohortFolder) folders.push(path.join(root,userCohortFolder));
+  // These are labeled KPI training examples supplied with the evaluator. Keep them
+  // show-scoped so unrelated promos do not leak into a model's source context.
+  const trainingFolder=path.join(root,'Promos for training ');
+  if(codes.length && (await fs.stat(trainingFolder).catch(()=>null))) folders.push(trainingFolder);
   const matchCodes=codes.length?codes:[''];
   const files:string[]=[];
   for(const folder of folders){

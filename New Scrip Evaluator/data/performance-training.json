@@ -31,6 +31,7 @@
       "anchors": [
         {"script":"TBG-Akshay-LP3","tier":"Topper","score":9.5,"cpi":141.43,"activation":30.95},
         {"script":"TBG-Akshay-LP3-V2","tier":"Topper","score":9.5,"cpi":58.7,"activation":17.11},
+        {"script":"TBG-Hasim-LP1","tier":"Topper","score":9,"cpi":99,"activation":38,"contentPatterns":["betrayal and humiliation","power awakening","revenge drive","family and clan conflict","high-stakes transformation"]},
         {"script":"TBG-Shailendra-LP4","tier":"Above Avg","score":8.5,"cpi":54.02,"activation":21.29},
         {"script":"TBG-Pranjali-LP1","tier":"Below Avg","score":6,"cpi":175.74,"activation":27.27},
         {"script":"TBG-Shailendra-LP1","tier":"Below Avg","score":6,"cpi":156.08,"activation":23.81}
@@ -43,6 +44,27 @@
         {"script":"PG-Pranjali-LP3","tier":"Above Avg","score":8.5,"cpi":81.97,"activation":30.57},
         {"script":"PG-Chaitanya-LP4","tier":"Below Avg","score":6,"cpi":215.38,"activation":15},
         {"script":"PG-Ganesh-LP1","tier":"Below Avg","score":6,"cpi":46.59,"activation":1.11}
+      ]
+    },
+    "Brahmyodha: The Destroyer": {
+      "anchors": [
+        {"script":"BHY-Chaitanya-LP5-Hasim-V1","tier":"Topper","score":9,"cpi":55,"activation":35,"contentPatterns":["underdog warrior","grandmother and family bond","divine serpent mythology","fire dragon threat","power reveal cliffhanger"]}
+      ]
+    },
+    "Garud Warrior": {
+      "anchors": [
+        {"script":"EXT_GW_Sasur Ki Saazish","tier":"Below Avg","score":6,"cpi":150,"activation":24,"contentPatterns":["secret identity","foster-family betrayal","criminal family conspiracy","masked assassins","suspense cliffhanger"]},
+        {"script":"Copy of EXT_GW_Sasur Ki Saazish","tier":"Avg","score":7.5,"cpi":150,"activation":40,"contentPatterns":["secret identity","foster-family betrayal","criminal family conspiracy","masked assassins","suspense cliffhanger"]}
+      ]
+    },
+    "Purple Thunder Sovereign": {
+      "anchors": [
+        {"script":"PTS-Akshay-LP1","tier":"Topper","score":9,"cpi":40,"activation":31,"contentPatterns":["weak E-rank outcast","S-rank power awakening","system reveal","bullying and revenge","demon-king escalation"]}
+      ]
+    },
+    "The Legend Gods": {
+      "anchors": [
+        {"script":"TLG-Shailendra-LP3 (1)","tier":"Below Avg","score":5,"cpi":22,"activation":17,"contentPatterns":["powerful emperor warrior","disciple betrayal","death and reincarnation","hell sword comeback","revenge setup"]}
       ]
     }
   }
