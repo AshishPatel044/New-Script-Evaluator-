@@ -27,8 +27,10 @@ export async function loadShowScoreReferences(show:string,codes:string[]){
   const unique=[...new Set(files)].slice(0,30);
   const text=await Promise.all(unique.map(async file=>`REFERENCE FILE: ${path.basename(file)}\n${(await mammoth.extractRawText({buffer:await fs.readFile(file)})).value}`));
   const training=JSON.parse(await fs.readFile(path.join(root,'data','pattern-training.json'),'utf8').catch(()=> '{}'))?.shows?.[show];
+  const ruleTraining=JSON.parse(await fs.readFile(path.join(root,'data','rule-training.json'),'utf8').catch(()=> '{}'))?.anchors?.filter((anchor:any)=>anchor.show===show)||[];
   const trainingNote=training?`\n--- PATTERN TRAINING MANIFEST (patternScores only) ---\n${JSON.stringify(training)}`:'';
-  return text.join('\n--- SHOW SCORE REFERENCE ---\n')+trainingNote;
+  const ruleNote=ruleTraining.length?`\n--- RULE SCORED ANCHORS (ruleScores only) ---\n${JSON.stringify(ruleTraining)}`:'';
+  return text.join('\n--- SHOW SCORE REFERENCE ---\n')+trainingNote+ruleNote;
 }
 
 export async function knownReferenceScore(show:string,codes:string[],script:string):Promise<{score:number;file:string}|null>{
