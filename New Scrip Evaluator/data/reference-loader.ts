@@ -30,7 +30,7 @@ export async function loadShowScoreReferences(show:string,codes:string[]){
   const ruleTraining=JSON.parse(await fs.readFile(path.join(root,'data','rule-training.json'),'utf8').catch(()=> '{}'))?.anchors?.filter((anchor:any)=>anchor.show===show)||[];
   const trainingNote=training?`\n--- PATTERN TRAINING MANIFEST (patternScores only) ---\n${JSON.stringify(training)}`:'';
   const ruleNote=ruleTraining.length?`\n--- RULE SCORED ANCHORS (ruleScores only) ---\n${JSON.stringify(ruleTraining)}`:'';
-  return text.join('\n--- SHOW SCORE REFERENCE ---\n')+trainingNote+ruleNote;
+  return (text.join('\n--- SHOW SCORE REFERENCE ---\n')+trainingNote+ruleNote).slice(0,14000);
 }
 
 export async function knownReferenceScore(show:string,codes:string[],script:string):Promise<{score:number;file:string}|null>{
