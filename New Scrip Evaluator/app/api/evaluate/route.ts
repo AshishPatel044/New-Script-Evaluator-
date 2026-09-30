@@ -6,6 +6,20 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {loadShowScoreReferences} from '../../../data/reference-loader';
 
+// GPT can occasionally return a truncated JSON envelope after a long evaluation.
+// Preserve the score objects that were already generated instead of turning the
+// complete request into a 500 response.
+const nativeJsonParse=JSON.parse.bind(JSON);
+JSON.parse=((value:string,reviver?:(_:string,value:unknown)=>unknown)=>{
+  try{return nativeJsonParse(value,reviver as any)}catch{
+    const text=String(value);
+    const extract=(key:string)=>{const match=text.match(new RegExp('"'+key+'"\\s*:\\s*(\\{[\\s\\S]*?\\})'));if(!match)return undefined;try{return nativeJsonParse(match[1])}catch{return undefined}};
+    const ruleScores=extract('ruleScores');const patternScores=extract('patternScores');
+    if(ruleScores||patternScores)return {ruleScores:ruleScores||{},patternScores:patternScores||{},summary:'Evaluation JSON was truncated; score fields were recovered safely.'};
+    throw new SyntaxError('Invalid evaluator JSON');
+  }
+}) as typeof JSON.parse;
+
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
 export const maxDuration=300;
