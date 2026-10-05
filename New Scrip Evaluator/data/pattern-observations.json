@@ -15,5 +15,41 @@
     "patternScores": "Score only against observed successful/average/below-average promo architecture, labelled examples and source-grounded show patterns. Do not use the Rule set thresholds or mechanical rule compliance to raise or lower this column.",
     "truth_guard": "Before scoring either column, verify every character, event, relationship, power, object and outcome against the selected show's source. Put unsupported claims in contradictions, lower fidelity, and never treat an invented detail as evidence. Keep source truth separate from creative pattern fit.",
     "different_scores": "The two columns are independent measurements and may legitimately differ. Never copy a score, final score, tier, strength or deduction from one column into the other."
+  },
+  "deep_cross_show_learning": {
+    "purpose": "Use these observations as architecture-level pattern signals after reading the selected show's source and same-show references. They are not hard rules and must not override source truth.",
+    "shared_winner_architecture": [
+      "Start with a character-specific contradiction, not a world glossary: weak person with dangerous identity, rejected spouse with hidden competence, ordinary boy holding forbidden power, or apparently powerless person making an impossible choice.",
+      "Convert the premise into a chain of performed events: pressure -> choice -> visible consequence -> reaction from a higher-status or dangerous character -> new identity/threat question.",
+      "Delay the largest supernatural/status reveal until the audience has emotionally invested in the lead's wound, desire, relationship or sacrifice; the reveal should change the meaning of the earlier conflict.",
+      "Use one dominant emotional spine and one supporting mystery. Promos lose pattern fit when they run several equal storylines, list many characters, or switch from romance to mythology to comedy without a bridge.",
+      "End at the first irreversible reversal or interruption, before resolution. A cliffhanger is strongest when the final image is concrete and the questions grow directly from it.",
+      "Length is neutral. Reward new pressure, reveal, decision or consequence per beat; penalize repeated labels, recap, production directions and scenes that only add names or powers."
+    ],
+    "negative_signals_that_should_lower_multiple_parameters": [
+      "A dramatic opening that is not paid off later should lower Hook, Sequence, Ending and Mental Impact rather than receiving hook credit alone.",
+      "A power, object or villain introduced only in narration without a character choice or visible consequence should lower Scene Design, Sequence and Follow successful promos pattern.",
+      "A promo beginning after the main event, or functioning as an extension without enough standalone context, should lower Context, Sequence, Ending and Pattern Fit.",
+      "Repeated humiliation, poverty, weakness, betrayal or family labels without a changed consequence should lower Sequence, Pacing, Scene Design and Recall Value.",
+      "A broad final list of mysteries after the strongest scene should lower Ending even when the promo contains a CTA; questions must be specific, limited and attached to the final image.",
+      "A source mismatch is not a creative pattern difference. Unsupported powers, relationships, identities or outcomes must be treated as contradictions and cannot earn pattern credit."
+    ],
+    "parameter_deep_signals": {
+      "Hook": "Measure the first meaningful beat, not the title or character list. Ask whether the first line creates a contradiction with a person, desire and consequence, and whether the hook remains open after the first scene. Reward specificity, compression and show DNA; deduct for generic fantasy claims, backstory before conflict, mid-story openings and unpaid spectacle.",
+      "Context & World Clarity": "Measure selective clarity, not the amount of information. The listener should understand the lead's present position, the key relationship, the immediate threat and the source-specific promise before the first major transition. Reward context embedded in conflict; deduct for biographies, mythology dumps, too many names and unexplained chronology.",
+      "Sequence & Plot Movement": "Map each beat as an event with an actor, choice and consequence. A new beat counts only when it changes danger, status, knowledge, relationship or goal. Reward emotional-to-supernatural causality and purposeful flashbacks; deduct when scenes are interchangeable, resolved before the next beat, or stitched as episode summaries.",
+      "Scene Design": "For each major scene, identify pressure, action, reaction and consequence. Reward attributed dialogue that forces a decision and visual proof of change. Deduct for narration describing what could be played, SFX/production notes standing in for drama, repeated insults and spectacle disconnected from the lead's choice.",
+      "Pacing & Transitions": "Judge pressure density and bridge quality rather than word count. Strong promos breathe around the wound or relationship, compress repeated history, then accelerate toward a concrete reversal. Deduct for repetition, long static dialogue, unexplained time jumps, location churn and tonal shifts without a causal or emotional bridge.",
+      "Ending, Callback & CTA": "The ending should be the next unavoidable question created by the final consequence. Reward an earned callback, an unresolved irreversible event, one dominant final image and three or four concrete questions followed by CTA. Deduct for resolution, vague questions, a CTA detached from the story or a cliffhanger that merely repeats an earlier reveal.",
+      "Narration/Dialogue Balance": "Score function, not percentage. Narration should orient, bridge and intensify imagery; dialogue should expose character, create pressure or deliver a reveal. Deduct when characters explain their own biographies, when narrator praise replaces proof, or when every line has the same emotional temperature.",
+      "Mental Impact & Recall Value": "Test the one-sentence memory after the promo: can the listener name the lead, wound, emotional promise and final question, plus one concrete image? Reward contrast and status reversal. Deduct when names, powers and subplots compete for memory or when the final image is generic.",
+      "Follow successful promos pattern": "Compare architecture and emotional promise against same-show toppers, not isolated props. A new promo can use a different entry hook and still fit if it preserves the show's pressure engine, character role, escalation logic, reveal timing and ending rhythm. Penalize surface imitation, copied finale images, generic genre language and missing show-specific relationship logic."
+    },
+    "evidence_handling": {
+      "same_show_priority": "Use selected-show topper, average and rejected references first. General cross-show signals are tie-breakers only.",
+      "source_priority": "Use the show source to verify every character, relationship, object, power, event and outcome before awarding pattern credit.",
+      "anchor_priority": "Named training anchors calibrate the overall pattern score only when content matches; they do not automatically set every parameter or justify copying a score.",
+      "uncertainty": "When the evidence is incomplete, lower confidence and explain the missing pattern evidence instead of inventing a match."
+    }
   }
 }
